@@ -10,8 +10,8 @@ Game ids are sourced from the season's schedule parquet
 is missing, falls back to a fresh ``sdv.wnba.espn_wnba_schedule`` call.
 
 Requirements:
-    Depends on the ``espn_wnba_event_officials`` helper added to
-    ``sportsdataverse-py`` (sportsdataverse/wnba/wnba_event_officials.py).
+    Depends on the ``espn_wnba_game_officials`` helper from
+    ``sportsdataverse-py`` (sportsdataverse/wnba/wnba_game_officials.py).
     The repo's ``requirements.txt`` should pin a version of sportsdataverse-py
     that exports it; until that release lands, install sdv-py from source
     (``pip install -e <path>/sdv-py``).
@@ -35,7 +35,7 @@ from tqdm import tqdm
 # The new module is not yet re-exported from ``sportsdataverse.wnba``, so we
 # import the function directly from its module to avoid relying on the
 # top-level package surface.
-from sportsdataverse.wnba.wnba_event_officials import espn_wnba_event_officials
+from sportsdataverse.wnba.wnba_game_officials import espn_wnba_game_officials
 
 
 logging.basicConfig(
@@ -106,7 +106,7 @@ def download_officials(
     if out_path.exists() and not rerun_existing:
         return f"skip {game_id}"
     try:
-        raw: dict[str, Any] = espn_wnba_event_officials(
+        raw: dict[str, Any] = espn_wnba_game_officials(
             game_id=int(game_id), raw=True
         )
         with open(out_path, "w", encoding="utf-8") as f:

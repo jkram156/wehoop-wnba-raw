@@ -1,5 +1,5 @@
 {
-"timestamp": "2026-05-12T00:55:02Z",
+"timestamp": "2026-06-23T06:07:49Z",
 "status": "success",
 "season": {
 "year": 2026,
@@ -54,11 +54,39 @@
 {
 "language": "en-US",
 "rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:5208983&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "gamelog",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/gamelog/_/id/5208983/isobel-borlase",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:5208983&section=gamelog",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -80,11 +108,39 @@
 {
 "language": "en-US",
 "rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:5208983&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "bio",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/bio/_/id/5208983/isobel-borlase",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:5208983&section=bio",
 "text": "Bio",
 "shortText": "Bio",
 "isExternal": false,
@@ -102,6 +158,20 @@
 "shortText": "Overview",
 "isExternal": false,
 "isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:5208983",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
 }
 ],
 "birthPlace": {
@@ -110,6 +180,10 @@
 "country": "Australia"
 },
 "slug": "isobel-borlase",
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/5208983.png",
+"alt": "Isobel Borlase"
+},
 "jersey": "20",
 "position": {
 "id": "3",
@@ -178,11 +252,39 @@
 {
 "language": "en-US",
 "rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3142250&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "gamelog",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/gamelog/_/id/3142250/jordin-canada",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3142250&section=gamelog",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -204,6 +306,20 @@
 {
 "language": "en-US",
 "rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3142250&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "bio",
 "desktop",
 "athlete"
@@ -217,11 +333,39 @@
 {
 "language": "en-US",
 "rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3142250&section=bio",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "overview",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/_/id/3142250/jordin-canada",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3142250",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -343,11 +487,39 @@
 {
 "language": "en-US",
 "rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3058901&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "gamelog",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/gamelog/_/id/3058901/allisha-gray",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3058901&section=gamelog",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -369,6 +541,20 @@
 {
 "language": "en-US",
 "rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3058901&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "bio",
 "desktop",
 "athlete"
@@ -382,11 +568,39 @@
 {
 "language": "en-US",
 "rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3058901&section=bio",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "overview",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/_/id/3058901/allisha-gray",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3058901",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -503,11 +717,39 @@
 {
 "language": "en-US",
 "rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4398915&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "gamelog",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/gamelog/_/id/4398915/naz-hillmon",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4398915&section=gamelog",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -529,6 +771,20 @@
 {
 "language": "en-US",
 "rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4398915&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "bio",
 "desktop",
 "athlete"
@@ -542,11 +798,39 @@
 {
 "language": "en-US",
 "rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4398915&section=bio",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "overview",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/_/id/4398915/naz-hillmon",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4398915",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -663,11 +947,39 @@
 {
 "language": "en-US",
 "rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4398674&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "gamelog",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/gamelog/_/id/4398674/rhyne-howard",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4398674&section=gamelog",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -689,6 +1001,20 @@
 {
 "language": "en-US",
 "rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4398674&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "bio",
 "desktop",
 "athlete"
@@ -702,11 +1028,39 @@
 {
 "language": "en-US",
 "rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4398674&section=bio",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "overview",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/_/id/4398674/rhyne-howard",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4398674",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -823,11 +1177,39 @@
 {
 "language": "en-US",
 "rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3058895&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "gamelog",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/gamelog/_/id/3058895/brionna-jones",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3058895&section=gamelog",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -849,6 +1231,20 @@
 {
 "language": "en-US",
 "rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3058895&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "bio",
 "desktop",
 "athlete"
@@ -862,11 +1258,39 @@
 {
 "language": "en-US",
 "rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3058895&section=bio",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "overview",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/_/id/3058895/brionna-jones",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3058895",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -926,7 +1350,7 @@
 "injuries": [
 {
 "status": "Out",
-"date": "2026-04-20T14:00Z"
+"date": "2026-06-17T18:12Z"
 }
 ],
 "contracts": [],
@@ -988,11 +1412,39 @@
 {
 "language": "en-US",
 "rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:5017721&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "gamelog",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/gamelog/_/id/5017721/sika-kone",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:5017721&section=gamelog",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -1014,6 +1466,20 @@
 {
 "language": "en-US",
 "rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:5017721&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "bio",
 "desktop",
 "athlete"
@@ -1027,11 +1493,39 @@
 {
 "language": "en-US",
 "rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:5017721&section=bio",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "overview",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/_/id/5017721/sika-kone",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:5017721",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -1111,11 +1605,39 @@
 {
 "language": "en-US",
 "rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:5105740&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "gamelog",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/gamelog/_/id/5105740/indya-nivar",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:5105740&section=gamelog",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -1137,6 +1659,20 @@
 {
 "language": "en-US",
 "rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:5105740&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "bio",
 "desktop",
 "athlete"
@@ -1150,11 +1686,39 @@
 {
 "language": "en-US",
 "rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:5105740&section=bio",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "overview",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/_/id/5105740/indya-nivar",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:5105740",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -1199,6 +1763,10 @@
 ]
 },
 "slug": "indya-nivar",
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/5105740.png",
+"alt": "Indya Nivar"
+},
 "jersey": "21",
 "position": {
 "id": "3",
@@ -1265,11 +1833,39 @@
 {
 "language": "en-US",
 "rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4597509&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "gamelog",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/gamelog/_/id/4597509/aaliyah-nye",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4597509&section=gamelog",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -1291,6 +1887,20 @@
 {
 "language": "en-US",
 "rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4597509&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "bio",
 "desktop",
 "athlete"
@@ -1304,11 +1914,39 @@
 {
 "language": "en-US",
 "rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4597509&section=bio",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "overview",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/_/id/4597509/aaliyah-nye",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4597509",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -1357,12 +1995,256 @@
 "href": "https://a.espncdn.com/i/headshots/wnba/players/full/4597509.png",
 "alt": "Aaliyah Nye"
 },
-"jersey": "13",
+"jersey": "32",
 "position": {
 "id": "3",
 "name": "Guard",
 "displayName": "Guard",
 "abbreviation": "G",
+"leaf": false
+},
+"injuries": [
+{
+"status": "Out",
+"date": "2026-06-21T20:55Z"
+}
+],
+"teams": [
+{
+"$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/seasons/2026/teams/20?lang=en&region=us"
+}
+],
+"contracts": [],
+"experience": {
+"years": 1
+},
+"status": {
+"id": "1",
+"name": "Active",
+"type": "active",
+"abbreviation": "Active"
+}
+},
+{
+"id": "3142242",
+"uid": "s:40~l:59~a:3142242",
+"guid": "edab8db7-9e1f-f296-b408-b4e1d2b4b364",
+"alternateIds": {
+"sdr": "3142242"
+},
+"firstName": "Amy",
+"lastName": "Okonkwo",
+"fullName": "Amy Okonkwo",
+"displayName": "Amy Okonkwo",
+"shortName": "A. Okonkwo",
+"height": 74.0,
+"displayHeight": "6' 2\"",
+"age": 29,
+"dateOfBirth": "1996-08-26T07:00Z",
+"links": [
+{
+"language": "en-US",
+"rel": [
+"playercard",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3142242/amy-okonkwo",
+"text": "Player Card",
+"shortText": "Player Card",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"stats",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/stats/_/id/3142242/amy-okonkwo",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3142242&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/gamelog/_/id/3142242/amy-okonkwo",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3142242&section=gamelog",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"news",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/news/_/id/3142242/amy-okonkwo",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3142242&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"bio",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/bio/_/id/3142242/amy-okonkwo",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3142242&section=bio",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"desktop",
+"athlete"
+],
+"href": "https://www.espn.com/wnba/player/_/id/3142242/amy-okonkwo",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3142242",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+}
+],
+"birthPlace": {
+"city": "Rancho Cucamonga",
+"state": "CA",
+"country": "USA"
+},
+"citizenship": "Nigeria",
+"college": {
+"id": "2628",
+"guid": "b7510593-5889-34d7-bac9-f85b4dd4c198",
+"mascot": "Horned Frogs",
+"name": "TCU",
+"shortName": "TCU",
+"abbrev": "TCU",
+"logos": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2025-12-23T01:44Z"
+},
+{
+"href": "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2628.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"dark"
+],
+"lastUpdated": "2025-12-23T01:44Z"
+}
+]
+},
+"slug": "amy-okonkwo",
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/3142242.png",
+"alt": "Amy Okonkwo"
+},
+"jersey": "1",
+"hand": {
+"type": "LEFT",
+"abbreviation": "L",
+"displayValue": "Left"
+},
+"position": {
+"id": "7",
+"name": "Forward",
+"displayName": "Forward",
+"abbreviation": "F",
 "leaf": false
 },
 "injuries": [],
@@ -1428,11 +2310,39 @@
 {
 "language": "en-US",
 "rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:5108587&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "gamelog",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/gamelog/_/id/5108587/madina-okot",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:5108587&section=gamelog",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -1454,6 +2364,20 @@
 {
 "language": "en-US",
 "rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:5108587&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "bio",
 "desktop",
 "athlete"
@@ -1467,11 +2391,39 @@
 {
 "language": "en-US",
 "rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:5108587&section=bio",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "overview",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/_/id/5108587/madina-okot",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:5108587",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -1515,6 +2467,10 @@
 ]
 },
 "slug": "madina-okot",
+"headshot": {
+"href": "https://a.espncdn.com/i/headshots/wnba/players/full/5108587.png",
+"alt": "Madina Okot"
+},
 "jersey": "11",
 "position": {
 "id": "9",
@@ -1581,11 +2537,39 @@
 {
 "language": "en-US",
 "rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4433431&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "gamelog",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/gamelog/_/id/4433431/te-hina-paopao",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4433431&section=gamelog",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -1607,6 +2591,20 @@
 {
 "language": "en-US",
 "rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4433431&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "bio",
 "desktop",
 "athlete"
@@ -1620,11 +2618,39 @@
 {
 "language": "en-US",
 "rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4433431&section=bio",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "overview",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/_/id/4433431/te-hina-paopao",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4433431",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -1746,11 +2772,39 @@
 {
 "language": "en-US",
 "rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4433402&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "gamelog",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/gamelog/_/id/4433402/angel-reese",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4433402&section=gamelog",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -1772,6 +2826,20 @@
 {
 "language": "en-US",
 "rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4433402&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "bio",
 "desktop",
 "athlete"
@@ -1785,11 +2853,39 @@
 {
 "language": "en-US",
 "rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4433402&section=bio",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "overview",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/_/id/4433402/angel-reese",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4433402",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -1875,8 +2971,8 @@
 "clubhouse": "https://www.espn.com/wnba/team/_/name/atl/atlanta-dream",
 "color": "e31837",
 "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/atl.png",
-"recordSummary": "1-0",
+"recordSummary": "12-4",
 "seasonSummary": "2026",
-"standingSummary": "2nd in Eastern Conference Division"
+"standingSummary": "1st in Eastern Conference Division"
 }
 }

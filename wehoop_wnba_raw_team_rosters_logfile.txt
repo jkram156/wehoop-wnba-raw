@@ -10,3 +10,5 @@ INFO:__main__:season=2025 teams=15
 INFO:__main__:0.01 minutes to download 15 team rosters for 2025.
 INFO:__main__:season=2026 teams=17
 INFO:__main__:0.00 minutes to download 17 team rosters for 2026.
+INFO:__main__:season=2026 teams=17
+INFO:__main__:0.03 minutes to download 17 team rosters for 2026.

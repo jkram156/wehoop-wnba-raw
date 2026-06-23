@@ -1,1552 +1,1036 @@
 {
-"filters": [
-{
-"displayName": "League",
-"name": "league",
-"value": "wnba",
-"options": [
-{
-"value": "wnba",
-"displayValue": "Women's National Basketball Association",
-"shortDisplayName": "WNBA"
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2026/types/2/athletes/3907781/statistics/0?lang=en&region=us",
+"season": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2026?lang=en&region=us"
 },
-{
-"value": "womens-college-basketball",
-"displayValue": "NCAA Women's Basketball",
-"shortDisplayName": "NCAAW"
-}
-]
+"athlete": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2026/athletes/3907781?lang=en&region=us"
 },
-{
-"displayName": "Season",
-"name": "seasontype",
-"value": "2",
-"options": [
-{
-"value": "2",
-"displayValue": "Regular Season"
-},
-{
-"value": "3",
-"displayValue": "Postseason"
-}
-]
-}
-],
-"teams": {
-"phoenix-mercury": {
-"id": "11",
-"uid": "s:40~l:59~t:11",
-"guid": "514d18a9-00a8-d52b-dda2-37d707f19bd0",
-"slug": "phoenix-mercury",
-"location": "Phoenix",
-"name": "Mercury",
-"abbreviation": "PHX",
-"displayName": "Phoenix Mercury",
-"shortDisplayName": "Mercury",
-"color": "3c286e",
-"alternateColor": "fa4b0a",
-"isActive": true,
-"isAllStar": false,
-"logos": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/wnba/500/phx.png",
-"width": 500,
-"height": 500,
-"rel": [
-"full",
-"default"
-]
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/phx.png",
-"width": 500,
-"height": 500,
-"rel": [
-"full",
-"dark"
-]
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/phx.png",
-"width": 500,
-"height": 500,
-"rel": [
-"full",
-"scoreboard"
-]
-},
-{
-"href": "https://a.espncdn.com/guid/514d18a9-00a8-d52b-dda2-37d707f19bd0/logos/primary_logo_on_white_color.png",
-"width": 4096,
-"height": 4096,
-"rel": [
-"full",
-"primary_logo_on_white_color"
-]
-},
-{
-"href": "https://a.espncdn.com/guid/514d18a9-00a8-d52b-dda2-37d707f19bd0/logos/primary_logo_on_black_color.png",
-"width": 4096,
-"height": 4096,
-"rel": [
-"full",
-"primary_logo_on_black_color"
-]
-},
-{
-"href": "https://a.espncdn.com/guid/514d18a9-00a8-d52b-dda2-37d707f19bd0/logos/primary_logo_on_primary_color.png",
-"width": 4096,
-"height": 4096,
-"rel": [
-"full",
-"primary_logo_on_primary_color"
-]
-},
-{
-"href": "https://a.espncdn.com/guid/514d18a9-00a8-d52b-dda2-37d707f19bd0/logos/primary_logo_on_secondary_color.png",
-"width": 4096,
-"height": 4096,
-"rel": [
-"full",
-"primary_logo_on_secondary_color"
-]
-},
-{
-"href": "https://a.espncdn.com/guid/514d18a9-00a8-d52b-dda2-37d707f19bd0/logos/secondary_logo_on_white_color.png",
-"width": 4096,
-"height": 4096,
-"rel": [
-"full",
-"secondary_logo_on_white_color"
-]
-},
-{
-"href": "https://a.espncdn.com/guid/514d18a9-00a8-d52b-dda2-37d707f19bd0/logos/secondary_logo_on_black_color.png",
-"width": 4096,
-"height": 4096,
-"rel": [
-"full",
-"secondary_logo_on_black_color"
-]
-},
-{
-"href": "https://a.espncdn.com/guid/514d18a9-00a8-d52b-dda2-37d707f19bd0/logos/secondary_logo_on_primary_color.png",
-"width": 4096,
-"height": 4096,
-"rel": [
-"full",
-"secondary_logo_on_primary_color"
-]
-},
-{
-"href": "https://a.espncdn.com/guid/514d18a9-00a8-d52b-dda2-37d707f19bd0/logos/secondary_logo_on_secondary_color.png",
-"width": 4096,
-"height": 4096,
-"rel": [
-"full",
-"secondary_logo_on_secondary_color"
-]
-}
-],
-"links": [
-{
-"language": "en",
-"rel": [
-"clubhouse",
-"desktop",
-"team"
-],
-"href": "https://www.espn.com/wnba/team/_/name/phx/phoenix-mercury",
-"text": "Clubhouse",
-"shortText": "Clubhouse",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en",
-"rel": [
-"clubhouse",
-"mobile",
-"team"
-],
-"href": "https://m.espn.com/wnba/clubhouse?teamId=11",
-"text": "Clubhouse",
-"shortText": "Clubhouse",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en",
-"rel": [
-"roster",
-"desktop",
-"team"
-],
-"href": "https://www.espn.com/wnba/team/roster/_/name/phx/phoenix-mercury",
-"text": "Roster",
-"shortText": "Roster",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en",
-"rel": [
-"stats",
-"desktop",
-"team"
-],
-"href": "https://www.espn.com/wnba/team/stats/_/name/phx/phoenix-mercury",
-"text": "Statistics",
-"shortText": "Statistics",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en",
-"rel": [
-"schedule",
-"desktop",
-"team"
-],
-"href": "https://www.espn.com/wnba/team/schedule/_/name/phx",
-"text": "Schedule",
-"shortText": "Schedule",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en",
-"rel": [
-"photos",
-"desktop",
-"team"
-],
-"href": "https://www.espn.com/wnba/team/photos/_/name/phx",
-"text": "photos",
-"shortText": "photos",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en",
-"rel": [
-"tickets",
-"desktop",
-"team"
-],
-"href": "https://www.vividseats.com/phoenix-mercury-tickets--sports-wnba/performer/678?wsUser=717",
-"text": "Tickets",
-"shortText": "Tickets",
-"isExternal": true,
-"isPremium": false
-},
-{
-"language": "en",
-"rel": [
-"draftpicks",
-"desktop",
-"team"
-],
-"href": "https://www.espn.com/wnba/draft/teams/_/name/phx/phoenix-mercury",
-"text": "Draft Picks",
-"shortText": "Draft Picks",
-"isExternal": false,
-"isPremium": true
-}
-],
-"groups": {},
-"coaches": {},
-"venue": {
-"id": "1949",
-"fullName": "Mortgage Matchup Center",
-"shortName": "Talking Stick Resort Arena",
-"address": {
-"city": "Phoenix",
-"state": "AZ"
-},
-"grass": false,
-"indoor": true,
-"images": [
-{
-"href": "https://a.espncdn.com/i/venues/wnba/day/1949.jpg",
-"width": 2000,
-"height": 1125,
-"rel": [
-"full",
-"day"
-]
-}
-]
-},
-"record": {},
-"ranks": {},
-"franchise": {}
-},
-"indiana-fever": {
-"id": "5",
-"uid": "s:40~l:59~t:5",
-"guid": "bfef1bdd-c2d1-310d-dd9f-645b90575da9",
-"slug": "indiana-fever",
-"location": "Indiana",
-"name": "Fever",
-"abbreviation": "IND",
-"displayName": "Indiana Fever",
-"shortDisplayName": "Fever",
-"color": "002d62",
-"alternateColor": "e03a3e",
-"isActive": true,
-"isAllStar": false,
-"logos": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/wnba/500/ind.png",
-"width": 500,
-"height": 500,
-"rel": [
-"full",
-"default"
-]
-},
-{
-"href": "https://a.espncdn.com/i/teamlogos/wnba/500-dark/ind.png",
-"width": 500,
-"height": 500,
-"rel": [
-"full",
-"dark"
-]
-},
-{
-"href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/primary_logo_on_white_color.png",
-"width": 4096,
-"height": 4096,
-"rel": [
-"full",
-"primary_logo_on_white_color"
-]
-},
-{
-"href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/primary_logo_on_black_color.png",
-"width": 4096,
-"height": 4096,
-"rel": [
-"full",
-"primary_logo_on_black_color"
-]
-},
-{
-"href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/primary_logo_on_primary_color.png",
-"width": 4096,
-"height": 4096,
-"rel": [
-"full",
-"primary_logo_on_primary_color"
-]
-},
-{
-"href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/primary_logo_on_secondary_color.png",
-"width": 4096,
-"height": 4096,
-"rel": [
-"full",
-"primary_logo_on_secondary_color"
-]
-},
-{
-"href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/primary_logo_black.png",
-"width": 4096,
-"height": 4096,
-"rel": [
-"full",
-"primary_logo_black"
-]
-},
-{
-"href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/primary_logo_white.png",
-"width": 4096,
-"height": 4096,
-"rel": [
-"full",
-"primary_logo_white"
-]
-},
-{
-"href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/secondary_logo_on_white_color.png",
-"width": 4096,
-"height": 4096,
-"rel": [
-"full",
-"secondary_logo_on_white_color"
-]
-},
-{
-"href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/secondary_logo_on_black_color.png",
-"width": 4096,
-"height": 4096,
-"rel": [
-"full",
-"secondary_logo_on_black_color"
-]
-},
-{
-"href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/secondary_logo_on_primary_color.png",
-"width": 4096,
-"height": 4096,
-"rel": [
-"full",
-"secondary_logo_on_primary_color"
-]
-},
-{
-"href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/secondary_logo_on_secondary_color.png",
-"width": 4096,
-"height": 4096,
-"rel": [
-"full",
-"secondary_logo_on_secondary_color"
-]
-},
-{
-"href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/secondary_logo_black.png",
-"width": 4096,
-"height": 4096,
-"rel": [
-"full",
-"secondary_logo_black"
-]
-},
-{
-"href": "https://a.espncdn.com/guid/bfef1bdd-c2d1-310d-dd9f-645b90575da9/logos/secondary_logo_white.png",
-"width": 4096,
-"height": 4096,
-"rel": [
-"full",
-"secondary_logo_white"
-]
-}
-],
-"links": [
-{
-"language": "en",
-"rel": [
-"clubhouse",
-"desktop",
-"team"
-],
-"href": "https://www.espn.com/wnba/team/_/name/ind/indiana-fever",
-"text": "Clubhouse",
-"shortText": "Clubhouse",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en",
-"rel": [
-"clubhouse",
-"mobile",
-"team"
-],
-"href": "https://m.espn.com/wnba/clubhouse?teamId=5",
-"text": "Clubhouse",
-"shortText": "Clubhouse",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en",
-"rel": [
-"roster",
-"desktop",
-"team"
-],
-"href": "https://www.espn.com/wnba/team/roster/_/name/ind/indiana-fever",
-"text": "Roster",
-"shortText": "Roster",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en",
-"rel": [
-"stats",
-"desktop",
-"team"
-],
-"href": "https://www.espn.com/wnba/team/stats/_/name/ind/indiana-fever",
-"text": "Statistics",
-"shortText": "Statistics",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en",
-"rel": [
-"schedule",
-"desktop",
-"team"
-],
-"href": "https://www.espn.com/wnba/team/schedule/_/name/ind",
-"text": "Schedule",
-"shortText": "Schedule",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en",
-"rel": [
-"photos",
-"desktop",
-"team"
-],
-"href": "https://www.espn.com/wnba/team/photos/_/name/ind",
-"text": "photos",
-"shortText": "photos",
-"isExternal": false,
-"isPremium": false
-},
-{
-"language": "en",
-"rel": [
-"tickets",
-"desktop",
-"team"
-],
-"href": "https://www.vividseats.com/indiana-fever-tickets--sports-wnba/performer/2016?wsUser=717",
-"text": "Tickets",
-"shortText": "Tickets",
-"isExternal": true,
-"isPremium": false
-},
-{
-"language": "en",
-"rel": [
-"draftpicks",
-"desktop",
-"team"
-],
-"href": "https://www.espn.com/wnba/draft/teams/_/name/ind/indiana-fever",
-"text": "Draft Picks",
-"shortText": "Draft Picks",
-"isExternal": false,
-"isPremium": true
-}
-],
-"groups": {},
-"coaches": {},
-"venue": {
-"id": "2183",
-"fullName": "Gainbridge Fieldhouse",
-"address": {
-"city": "Indianapolis",
-"state": "IN"
-},
-"grass": false,
-"indoor": true,
-"images": [
-{
-"href": "https://a.espncdn.com/i/venues/wnba/day/2183.jpg",
-"width": 2000,
-"height": 1125,
-"rel": [
-"full",
-"day"
-]
-}
-]
-},
-"record": {},
-"ranks": {},
-"franchise": {}
-}
-},
+"splits": {
+"id": "0",
+"name": "All Splits",
+"abbreviation": "Total",
+"type": "total",
 "categories": [
 {
-"name": "averages",
-"displayName": "Regular Season Averages",
-"labels": [
-"GP",
-"GS",
-"MIN",
-"PTS",
-"OR",
-"DR",
-"REB",
-"AST",
-"STL",
-"BLK",
-"TO",
-"FG",
-"FG%",
-"3PT",
-"3P%",
-"FT",
-"FT%",
-"PF"
-],
-"names": [
-"gamesPlayed",
-"gamesStarted",
-"avgMinutes",
-"avgPoints",
-"avgOffensiveRebounds",
-"avgDefensiveRebounds",
-"avgRebounds",
-"avgAssists",
-"avgSteals",
-"avgBlocks",
-"avgTurnovers",
-"avgFieldGoalsMade-avgFieldGoalsAttempted",
-"fieldGoalPct",
-"avgThreePointFieldGoalsMade-avgThreePointFieldGoalsAttempted",
-"threePointFieldGoalPct",
-"avgFreeThrowsMade-avgFreeThrowsAttempted",
-"freeThrowPct",
-"avgFouls"
-],
-"displayNames": [
-"Games Played",
-"Games Started",
-"Minutes Per Game",
-"Points Per Game",
-"Offensive Rebounds Per Game",
-"Defensive Rebounds Per Game",
-"Rebounds Per Game",
-"Assists Per Game",
-"Steals Per Game",
-"Blocks Per Game",
-"Turnovers Per Game",
-"Field Goals Made-Attempted Per Game",
-"Field Goal Percentage",
-"3-Point Field Goals Made-Attempted Per Game",
-"3-Point Field Goal Percentage",
-"Free Throws Made-Attempted Per Game",
-"Free Throw Percentage",
-"Fouls Per Game"
-],
-"descriptions": [
-"Games Played",
-"The number of games started by an athlete.",
-"The average number of minutes per game.",
-"The average number of points scored per game.",
-"The average offensive rebounds per game.",
-"The average defensive rebounds per game.",
-"The average rebounds per game.",
-"The average assists per game.",
-"The average steals per game.",
-"The average blocks per game.",
-"The average turnovers committed per game.",
-"The average field goals made per game.-The average field goals attempted per game.",
-"The ratio of field goals made to field goals attempted: FGM / FGA",
-"The average three point field goals made per game.-The average three point field goals attempted per game.",
-"The ratio of 3pt field goals made to 3pt field goals attempted: 3PM / 3PA.",
-"The average free throw shots made per game.-The average free throw shots attempted per game.",
-"The ratio of free throws made to free throws attempted: FTM / FTA",
-"The average fouls committed per game."
-],
-"statistics": [
-{
-"teamId": "11",
-"teamSlug": "phoenix-mercury",
-"season": {
-"year": 2019,
-"displayName": "2019"
-},
+"name": "defensive",
+"displayName": "Defensive",
+"shortDisplayName": "Defensive",
+"abbreviation": "def",
+"summary": "",
 "stats": [
-"32",
-"5",
-"12.2",
-"3.1",
-"0.2",
-"1.2",
-"1.4",
-"0.8",
-"0.3",
-"0.1",
-"0.6",
-"0.9-2.5",
-"35.4",
-"0.4-1.4",
-"30.4",
-"0.9-1.1",
-"88.2",
-"1.7"
-],
-"position": "G"
-},
 {
-"teamId": "11",
-"teamSlug": "phoenix-mercury",
-"season": {
-"year": 2020,
-"displayName": "2020"
-},
-"stats": [
-"21",
-"11",
-"18.9",
-"5.0",
-"0.4",
-"0.6",
-"1.0",
-"0.8",
-"0.5",
-"0.1",
-"0.7",
-"1.7-4.3",
-"38.5",
-"0.6-2.4",
-"23.5",
-"1.0-1.2",
-"88.0",
-"2.2"
-],
-"position": "G"
-},
-{
-"teamId": "11",
-"teamSlug": "phoenix-mercury",
-"season": {
-"year": 2021,
-"displayName": "2021"
-},
-"stats": [
-"30",
-"4",
-"17.5",
-"5.6",
-"0.3",
-"1.7",
-"2.0",
-"1.1",
-"0.5",
-"0.2",
-"0.5",
-"2.0-4.5",
-"43.7",
-"1.1-2.6",
-"41.0",
-"0.6-0.9",
-"70.4",
-"1.9"
-],
-"position": "G"
-},
-{
-"teamId": "11",
-"teamSlug": "phoenix-mercury",
-"season": {
-"year": 2022,
-"displayName": "2022"
-},
-"stats": [
-"28",
-"20",
-"29.5",
-"12.6",
-"0.7",
-"3.7",
-"4.4",
-"1.6",
-"1.0",
-"0.4",
-"1.0",
-"4.3-9.5",
-"44.9",
-"2.5-6.3",
-"40.0",
-"1.5-1.7",
-"87.5",
-"3.4"
-],
-"position": "G"
-},
-{
-"teamId": "11",
-"teamSlug": "phoenix-mercury",
-"season": {
-"year": 2023,
-"displayName": "2023"
-},
-"stats": [
-"31",
-"31",
-"29.0",
-"11.3",
-"0.5",
-"2.3",
-"2.8",
-"2.1",
-"0.6",
-"0.4",
-"1.5",
-"3.6-8.7",
-"41.3",
-"1.9-5.5",
-"33.7",
-"2.3-2.6",
-"87.5",
-"3.2"
-],
-"position": "G"
-},
-{
-"teamId": "11",
-"teamSlug": "phoenix-mercury",
-"season": {
-"year": 2024,
-"displayName": "2024"
-},
-"stats": [
-"40",
-"21",
-"27.7",
-"8.4",
-"0.4",
-"3.5",
-"3.9",
-"2.0",
-"1.0",
-"0.3",
-"1.0",
-"2.6-6.0",
-"42.9",
-"1.7-4.5",
-"37.8",
-"1.5-1.7",
-"87.0",
-"2.3"
-],
-"position": "G"
-},
-{
-"teamId": "5",
-"teamSlug": "indiana-fever",
-"season": {
-"year": 2025,
-"displayName": "2025"
-},
-"stats": [
-"30",
-"13",
-"25.2",
-"8.6",
-"0.5",
-"3.0",
-"3.5",
-"1.2",
-"1.0",
-"0.1",
-"1.1",
-"2.7-5.8",
-"46.9",
-"1.7-3.9",
-"43.2",
-"1.4-1.6",
-"87.5",
-"2.2"
-],
-"position": "G"
-},
-{
-"teamId": "5",
-"teamSlug": "indiana-fever",
-"season": {
-"year": 2026,
-"displayName": "2026"
-},
-"stats": [
-"1",
-"1",
-"26.0",
-"3.0",
-"1.0",
-"3.0",
-"4.0",
-"3.0",
-"0.0",
-"0.0",
-"0.0",
-"1.0-2.0",
-"50.0",
-"1.0-1.0",
-"100.0",
-"0.0-0.0",
-"0.0",
-"3.0"
-],
-"position": "G"
-}
-],
-"totals": [
-"213",
-"106",
-"23.1",
-"7.8",
-"0.4",
-"2.4",
-"2.8",
-"1.4",
-"0.7",
-"0.2",
-"0.9",
-"2.5-5.9",
-"42.8",
-"1.4-3.9",
-"37.3",
-"1.3-1.6",
-"86.1",
-"2.4"
-],
-"sortKey": "averages"
-},
-{
-"name": "totals",
-"displayName": "Regular Season Totals",
-"labels": [
-"PTS",
-"OR",
-"DR",
-"REB",
-"AST",
-"STL",
-"BLK",
-"TO",
-"FG",
-"FG%",
-"3PT",
-"3P%",
-"FT",
-"FT%",
-"PF"
-],
-"names": [
-"points",
-"offensiveRebounds",
-"defensiveRebounds",
-"totalRebounds",
-"assists",
-"steals",
-"blocks",
-"turnovers",
-"fieldGoalsMade-fieldGoalsAttempted",
-"fieldGoalPct",
-"threePointFieldGoalsMade-threePointFieldGoalsAttempted",
-"threePointFieldGoalPct",
-"freeThrowsMade-freeThrowsAttempted",
-"freeThrowPct",
-"fouls"
-],
-"displayNames": [
-"Points",
-"Offensive Rebounds",
-"Defensive Rebounds",
-"Rebounds",
-"Assists",
-"Steals",
-"Blocks",
-"Turnovers",
-"Field Goals Made-Attempted",
-"Field Goal Percentage",
-"3-Point Field Goals Made-Attempted",
-"3-Point Field Goal Percentage",
-"Free Throws Made-Attempted",
-"Free Throw Percentage",
-"Fouls"
-],
-"descriptions": [
-"The number of points scored.",
-"The number of times when the offense obtains the possession of the ball after a missed shot.",
-"The number of times when the defense obtains the possession of the ball after a missed shot by the offense.",
-"The total number of rebounds for a team or player",
-"The number of times a player who passes the ball to a teammate in a way that leads to a score by field goal, meaning that he or she was \"assisting\" in the basket. There is some judgment involved in deciding whether a passer should be credited with an assist.",
-"The number of times a defensive player forced a turnover by intercepting or deflecting a pass or a dribble of an offensive player.",
-"Short for blocked shot, number of times when a defensive player legally deflects a field goal attempt from an offensive player.",
-"The number of times a player loses possession to the other team.",
-"The number of times a 2pt field goal was made.-The number of times a 2pt field goal was attempted.",
-"The ratio of field goals made to field goals attempted: FGM / FGA",
-"The number of times a 3pt field goal was made.-The number of times a 3pt field goal was attempted.",
-"The ratio of 3pt field goals made to 3pt field goals attempted: 3PM / 3PA.",
-"The number of times a free throw was made.-The number of times a free throw was attempted.",
-"The ratio of free throws made to free throws attempted: FTM / FTA",
-"The number of times a player had illegal contact with the opponent."
-],
-"statistics": [
-{
-"teamId": "11",
-"teamSlug": "phoenix-mercury",
-"season": {
-"year": 2019,
-"displayName": "2019"
-},
-"stats": [
-"100",
-"6",
-"39",
-"45",
-"25",
-"11",
-"4",
-"20",
-"28-79",
-"35.4",
-"14-46",
-"30.4",
-"30-34",
-"88.2",
-"53"
-],
-"position": "G"
-},
-{
-"teamId": "11",
-"teamSlug": "phoenix-mercury",
-"season": {
-"year": 2020,
-"displayName": "2020"
-},
-"stats": [
-"104",
-"9",
-"13",
-"22",
-"16",
-"11",
-"3",
-"15",
-"35-91",
-"38.5",
-"12-51",
-"23.5",
-"22-25",
-"88.0",
-"46"
-],
-"position": "G"
-},
-{
-"teamId": "11",
-"teamSlug": "phoenix-mercury",
-"season": {
-"year": 2021,
-"displayName": "2021"
-},
-"stats": [
-"169",
-"9",
-"51",
-"60",
-"32",
-"14",
-"7",
-"16",
-"59-135",
-"43.7",
-"32-78",
-"41.0",
-"19-27",
-"70.4",
-"56"
-],
-"position": "G"
-},
-{
-"teamId": "11",
-"teamSlug": "phoenix-mercury",
-"season": {
-"year": 2022,
-"displayName": "2022"
-},
-"stats": [
-"352",
-"19",
-"104",
-"123",
-"45",
-"28",
-"10",
-"29",
-"120-267",
-"44.9",
-"70-175",
-"40.0",
-"42-48",
-"87.5",
-"94"
-],
-"position": "G"
-},
-{
-"teamId": "11",
-"teamSlug": "phoenix-mercury",
-"season": {
-"year": 2023,
-"displayName": "2023"
-},
-"stats": [
-"350",
-"17",
-"71",
-"88",
-"65",
-"20",
-"11",
-"46",
-"111-269",
-"41.3",
-"58-172",
-"33.7",
-"70-80",
-"87.5",
-"99"
-],
-"position": "G"
-},
-{
-"teamId": "11",
-"teamSlug": "phoenix-mercury",
-"season": {
-"year": 2024,
-"displayName": "2024"
-},
-"stats": [
-"334",
-"16",
-"141",
-"157",
-"79",
-"41",
-"10",
-"38",
-"103-240",
-"42.9",
-"68-180",
-"37.8",
-"60-69",
-"87.0",
-"91"
-],
-"position": "G"
-},
-{
-"teamId": "5",
-"teamSlug": "indiana-fever",
-"season": {
-"year": 2025,
-"displayName": "2025"
-},
-"stats": [
-"257",
-"15",
-"90",
-"105",
-"36",
-"29",
-"3",
-"34",
-"82-175",
-"46.9",
-"51-118",
-"43.2",
-"42-48",
-"87.5",
-"65"
-],
-"position": "G"
-},
-{
-"teamId": "5",
-"teamSlug": "indiana-fever",
-"season": {
-"year": 2026,
-"displayName": "2026"
-},
-"stats": [
-"3",
-"1",
-"3",
-"4",
-"3",
-"0",
-"0",
-"0",
-"1-2",
-"50.0",
-"1-1",
-"100.0",
-"0-0",
-"0.0",
-"3"
-],
-"position": "G"
-}
-],
-"totals": [
-"1669",
-"92",
-"512",
-"604",
-"301",
-"154",
-"48",
-"198",
-"539-1258",
-"42.8",
-"306-821",
-"37.3",
-"285-331",
-"86.1",
-"507"
-],
-"sortKey": "totals"
-},
-{
-"name": "miscellaneous",
-"displayName": "Regular Season Misc Totals",
-"labels": [
-"DD2",
-"TD3",
-"AST/TO",
-"STL/TO",
-"SC-EFF",
-"SH-EFF",
-"TECH",
-"FLAG",
-"DQ",
-"EJECT"
-],
-"names": [
-"doubleDouble",
-"tripleDouble",
-"assistTurnoverRatio",
-"stealTurnoverRatio",
-"scoringEfficiency",
-"shootingEfficiency",
-"technicalFouls",
-"flagrantFouls",
-"disqualifications",
-"ejections"
-],
-"displayNames": [
-"Double Double",
-"Triple Double",
-"Assist To Turnover Ratio",
-"Steal To Turnover Ratio",
-"Scoring Efficiency",
-"Shooting Efficiency",
-"Technical Fouls",
-"Flagrant Fouls",
-"Disqualifications",
-"Ejections"
-],
-"descriptions": [
-"The number of times double digit values were accumulated in 2 of the following categories: points, rebounds, assists, steals, and blocked shots",
-"The number of times double digit values were accumulated in 3 of the following categories: points, rebounds, assists, steals, and blocked shots",
-"The average number of assists a player or team records per turnover",
-"The number of steals per turnover",
-"The efficiency with which a team or player scores the basketball.",
-"The efficiency with which a team or player shoots the basketball.",
-"The number of times an player or coach was called for a technical foul (unsportsmanlike conduct or violations).",
-"The number of fouls that the officials thought were unnecessary or excessive.",
-"The number of times a player reached the foul limit.",
-"The number of times a player or coach is removed from the game as a result of a serious offense."
-],
-"statistics": [
-{
-"teamId": "11",
-"teamSlug": "phoenix-mercury",
-"season": {
-"year": 2019,
-"displayName": "2019"
-},
-"stats": [
-"0",
-"0",
-"1.3",
-"0.6",
-"1.266",
-"0.44",
-"1",
-"1",
-"0",
-"0"
-],
-"position": "G"
-},
-{
-"teamId": "11",
-"teamSlug": "phoenix-mercury",
-"season": {
-"year": 2020,
-"displayName": "2020"
-},
-"stats": [
-"0",
-"0",
-"1.1",
-"0.7",
-"1.143",
-"0.45",
-"1",
-"0",
-"0",
-"0"
-],
-"position": "G"
-},
-{
-"teamId": "11",
-"teamSlug": "phoenix-mercury",
-"season": {
-"year": 2021,
-"displayName": "2021"
-},
-"stats": [
-"0",
-"0",
-"2.0",
-"0.9",
-"1.252",
-"0.56",
-"2",
-"0",
-"0",
-"0"
-],
-"position": "G"
-},
-{
-"teamId": "11",
-"teamSlug": "phoenix-mercury",
-"season": {
-"year": 2022,
-"displayName": "2022"
-},
-"stats": [
-"0",
-"0",
-"1.6",
-"1.0",
-"1.318",
-"0.58",
-"3",
-"1",
-"1",
-"0"
-],
-"position": "G"
-},
-{
-"teamId": "11",
-"teamSlug": "phoenix-mercury",
-"season": {
-"year": 2023,
-"displayName": "2023"
-},
-"stats": [
-"0",
-"0",
-"1.4",
-"0.4",
-"1.301",
-"0.52",
-"1",
-"1",
-"2",
-"0"
-],
-"position": "G"
-},
-{
-"teamId": "11",
-"teamSlug": "phoenix-mercury",
-"season": {
-"year": 2024,
-"displayName": "2024"
-},
-"stats": [
-"1",
-"0",
-"2.1",
-"1.1",
-"1.392",
-"0.57",
-"4",
-"0",
-"0",
-"1"
-],
-"position": "G"
-},
-{
-"teamId": "5",
-"teamSlug": "indiana-fever",
-"season": {
-"year": 2025,
-"displayName": "2025"
-},
-"stats": [
-"1",
-"0",
-"1.1",
-"0.9",
-"1.469",
-"0.61",
-"1",
-"2",
-"0",
-"1"
-],
-"position": "G"
-},
-{
-"teamId": "5",
-"teamSlug": "indiana-fever",
-"season": {
-"year": 2026,
-"displayName": "2026"
-},
-"stats": [
-"0",
-"0",
-"INF",
-"0.0",
-"1.500",
-"0.75",
-"0",
-"0",
-"0",
-"0"
-],
-"position": "G"
-}
-],
-"totals": [
-"2",
-"0",
-"1.5",
-"0.8",
-"1.327",
-"0.55",
-"13",
-"5",
-"3",
-"2"
-],
-"sortKey": "miscellaneous"
-}
-],
-"glossary": [
-{
-"abbreviation": "3P%",
-"displayName": "3-Point Field Goal Percentage"
-},
-{
-"abbreviation": "3PT",
-"displayName": "3-Point Field Goals Made-Attempted Per Game"
-},
-{
-"abbreviation": "AST",
-"displayName": "Assists Per Game"
-},
-{
-"abbreviation": "AST/TO",
-"displayName": "Assist To Turnover Ratio"
-},
-{
+"name": "blocks",
+"displayName": "Blocks",
+"shortDisplayName": "BLK",
+"description": "Short for blocked shot, number of times when a defensive player legally deflects a field goal attempt from an offensive player.",
 "abbreviation": "BLK",
-"displayName": "Blocks Per Game"
+"value": 1.0,
+"displayValue": "1",
+"rank": 126,
+"rankDisplayValue": "Tied-126th"
 },
 {
-"abbreviation": "DD2",
-"displayName": "Double Double"
-},
-{
-"abbreviation": "DQ",
-"displayName": "Disqualifications"
-},
-{
+"name": "defensiveRebounds",
+"displayName": "Defensive Rebounds",
+"shortDisplayName": "DREB",
+"description": "The number of times when the defense obtains the possession of the ball after a missed shot by the offense.",
 "abbreviation": "DR",
-"displayName": "Defensive Rebounds Per Game"
+"value": 34.0,
+"displayValue": "34",
+"rank": 73,
+"rankDisplayValue": "Tied-73rd"
 },
 {
-"abbreviation": "EJECT",
-"displayName": "Ejections"
-},
-{
-"abbreviation": "FG",
-"displayName": "Field Goals Made-Attempted Per Game"
-},
-{
-"abbreviation": "FG%",
-"displayName": "Field Goal Percentage"
-},
-{
-"abbreviation": "FLAG",
-"displayName": "Flagrant Fouls"
-},
-{
-"abbreviation": "FT",
-"displayName": "Free Throws Made-Attempted Per Game"
-},
-{
-"abbreviation": "FT%",
-"displayName": "Free Throw Percentage"
-},
-{
-"abbreviation": "GP",
-"displayName": "Games Played"
-},
-{
-"abbreviation": "GS",
-"displayName": "Games Started"
-},
-{
-"abbreviation": "MIN",
-"displayName": "Minutes Per Game"
-},
-{
-"abbreviation": "OR",
-"displayName": "Offensive Rebounds Per Game"
-},
-{
-"abbreviation": "PF",
-"displayName": "Fouls Per Game"
-},
-{
-"abbreviation": "PTS",
-"displayName": "Points Per Game"
-},
-{
-"abbreviation": "REB",
-"displayName": "Rebounds Per Game"
-},
-{
-"abbreviation": "SC-EFF",
-"displayName": "Scoring Efficiency"
-},
-{
-"abbreviation": "SH-EFF",
-"displayName": "Shooting Efficiency"
-},
-{
+"name": "steals",
+"displayName": "Steals",
+"shortDisplayName": "STL",
+"description": "The number of times a defensive player forced a turnover by intercepting or deflecting a pass or a dribble of an offensive player.",
 "abbreviation": "STL",
-"displayName": "Steals Per Game"
+"value": 7.0,
+"displayValue": "7",
+"rank": 104,
+"rankDisplayValue": "Tied-104th"
 },
 {
-"abbreviation": "STL/TO",
-"displayName": "Steal To Turnover Ratio"
+"name": "avgDefensiveRebounds",
+"displayName": "Defensive Rebounds Per Game",
+"shortDisplayName": "DRPG",
+"description": "The average defensive rebounds per game.",
+"abbreviation": "DR",
+"value": 2.2666667,
+"displayValue": "2.3"
 },
 {
-"abbreviation": "TD3",
-"displayName": "Triple Double"
+"name": "avgBlocks",
+"displayName": "Blocks Per Game",
+"shortDisplayName": "BPG",
+"description": "The average blocks per game.",
+"abbreviation": "BLK",
+"value": 0.06666667,
+"displayValue": "0.1"
 },
 {
-"abbreviation": "TECH",
-"displayName": "Technical Fouls"
+"name": "avgSteals",
+"displayName": "Steals Per Game",
+"shortDisplayName": "SPG",
+"description": "The average steals per game.",
+"abbreviation": "STL",
+"value": 0.46666667,
+"displayValue": "0.5"
 },
 {
-"abbreviation": "TO",
-"displayName": "Turnovers Per Game"
+"name": "avg48DefensiveRebounds",
+"displayName": "Defensive Rebounds Per 48",
+"shortDisplayName": "DREB/48",
+"description": "The average number of defensive rebounds per 48 minutes.",
+"abbreviation": "DR",
+"value": 4.676218,
+"displayValue": "4.7",
+"rank": 3504,
+"rankDisplayValue": "Tied-3,504th"
+},
+{
+"name": "avg48Blocks",
+"displayName": "Blocks Per 48",
+"shortDisplayName": "BLK/48",
+"description": "The average number of blocks per 48 minutes.",
+"abbreviation": "BLK",
+"value": 0.13753583,
+"displayValue": "0.1",
+"rank": 6048,
+"rankDisplayValue": "Tied-6,048th"
+},
+{
+"name": "avg48Steals",
+"displayName": "Steals Per 48",
+"shortDisplayName": "STL/48",
+"description": "The average number of steals per 48 minutes.",
+"abbreviation": "STL",
+"value": 0.9627507,
+"displayValue": "1.0",
+"rank": 4992,
+"rankDisplayValue": "Tied-4,992nd"
 }
 ]
+},
+{
+"name": "general",
+"displayName": "General",
+"shortDisplayName": "General",
+"abbreviation": "gen",
+"summary": "",
+"stats": [
+{
+"name": "disqualifications",
+"displayName": "Disqualifications",
+"shortDisplayName": "DQ",
+"description": "The number of times a player reached the foul limit.",
+"abbreviation": "DQ",
+"value": 0.0,
+"displayValue": "0",
+"rank": 33,
+"rankDisplayValue": "Tied-33rd"
+},
+{
+"name": "flagrantFouls",
+"displayName": "Flagrant Fouls",
+"shortDisplayName": "FLAG",
+"description": "The number of fouls that the officials thought were unnecessary or excessive.",
+"abbreviation": "FLAG",
+"value": 0.0,
+"displayValue": "0",
+"rank": 35,
+"rankDisplayValue": "Tied-35th"
+},
+{
+"name": "fouls",
+"displayName": "Fouls",
+"shortDisplayName": "PF",
+"description": "The number of times a player had illegal contact with the opponent.",
+"abbreviation": "PF",
+"value": 31.0,
+"displayValue": "31",
+"rank": 72,
+"rankDisplayValue": "Tied-72nd"
+},
+{
+"name": "ejections",
+"displayName": "Ejections",
+"shortDisplayName": "EJECT",
+"description": "The number of times a player or coach is removed from the game as a result of a serious offense.",
+"abbreviation": "EJECT",
+"value": 0.0,
+"displayValue": "0",
+"rank": 2,
+"rankDisplayValue": "Tied-2nd"
+},
+{
+"name": "technicalFouls",
+"displayName": "Technical Fouls",
+"shortDisplayName": "TECH",
+"description": "The number of times an player or coach was called for a technical foul (unsportsmanlike conduct or violations).",
+"abbreviation": "TECH",
+"value": 2.0,
+"displayValue": "2",
+"rank": 5,
+"rankDisplayValue": "Tied-5th"
+},
+{
+"name": "rebounds",
+"displayName": "Rebounds",
+"shortDisplayName": "REB",
+"description": "The total number of rebounds (offensive and defensive).",
+"abbreviation": "REB",
+"value": 38.0,
+"displayValue": "38",
+"rank": 203,
+"rankDisplayValue": "Tied-203rd"
+},
+{
+"name": "VORP",
+"displayName": "Value Over Replacement Player",
+"shortDisplayName": "VORP",
+"description": "Value Over Replacement Player.",
+"abbreviation": "VORP",
+"value": 0.0,
+"displayValue": "0.0"
+},
+{
+"name": "minutes",
+"displayName": "Minutes",
+"shortDisplayName": "MIN",
+"description": "The total number of minutes played.",
+"abbreviation": "MIN",
+"value": 349.0,
+"displayValue": "349",
+"rank": 1,
+"rankDisplayValue": "1st"
+},
+{
+"name": "avgMinutes",
+"displayName": "Minutes Per Game",
+"shortDisplayName": "MPG",
+"description": "The average number of minutes per game.",
+"abbreviation": "MIN",
+"value": 23.266666,
+"displayValue": "23.3"
+},
+{
+"name": "fantasyRating",
+"displayName": "Fantasy Rating",
+"shortDisplayName": "FANT",
+"description": "The Fantasy Rating of a player.",
+"abbreviation": "FANT",
+"value": 0.0,
+"displayValue": "0.0",
+"rank": 1,
+"rankDisplayValue": "Tied-1st"
+},
+{
+"name": "NBARating",
+"displayName": "Rating",
+"shortDisplayName": "Rating",
+"description": "Custom formula to rate the performance of a player based on points, assists, steals, blocks, turnovers, rebounds, three pointers, and free throws",
+"abbreviation": "RTG",
+"value": 17.18,
+"displayValue": "17.2",
+"rank": 40,
+"rankDisplayValue": "Tied-40th"
+},
+{
+"name": "plusMinus",
+"displayName": "Plus-Minus",
+"shortDisplayName": "+/-",
+"description": "A player's estimated on-court impact on team performance measured in point differential per 100 possessions.",
+"abbreviation": "+/-",
+"value": 5.0,
+"displayValue": "+5",
+"rank": 1,
+"rankDisplayValue": "Tied-1st"
+},
+{
+"name": "avgRebounds",
+"displayName": "Rebounds Per Game",
+"shortDisplayName": "RPG",
+"description": "The average rebounds per game.",
+"abbreviation": "REB",
+"value": 2.5333333,
+"displayValue": "2.5"
+},
+{
+"name": "avgFouls",
+"displayName": "Fouls Per Game",
+"shortDisplayName": "PFPG",
+"description": "The average fouls committed per game.",
+"abbreviation": "PF",
+"value": 2.0666666,
+"displayValue": "2.1"
+},
+{
+"name": "avgFlagrantFouls",
+"displayName": "Flagrant Fouls Per Game",
+"shortDisplayName": "FLAGPG",
+"description": "The average number of flagrant fouls per game.",
+"abbreviation": "FLAGPG",
+"value": 0.0,
+"displayValue": "0.0"
+},
+{
+"name": "avgTechnicalFouls",
+"displayName": "Technical Fouls Per Game",
+"shortDisplayName": "TECHPG",
+"description": "The average number of technical fouls per game.",
+"abbreviation": "TECHPG",
+"value": 0.13333334,
+"displayValue": "0.1"
+},
+{
+"name": "avgEjections",
+"displayName": "Ejections Per Game",
+"shortDisplayName": "EJCTPG",
+"description": "The average ejections per game.",
+"abbreviation": "EJCTPG",
+"value": 0.0,
+"displayValue": "0.0"
+},
+{
+"name": "avgDisqualifications",
+"displayName": "Disqualifications Per Game",
+"shortDisplayName": "DQPG",
+"description": "The average number of disqualifications per game.",
+"abbreviation": "DQPG",
+"value": 0.0,
+"displayValue": "0.0"
+},
+{
+"name": "assistTurnoverRatio",
+"displayName": "Assist To Turnover Ratio",
+"shortDisplayName": "AST/TO",
+"description": "The average number of assists a player or team records per turnover",
+"abbreviation": "AST/TO",
+"value": 2.1818182,
+"displayValue": "2.2"
+},
+{
+"name": "stealFoulRatio",
+"displayName": "Steal To Foul Ratio",
+"shortDisplayName": "STL/PF",
+"description": "The average number of steals a player or team records per foul committed.",
+"abbreviation": "STL/PF",
+"value": 0.22580644,
+"displayValue": "0.2",
+"rank": 1,
+"rankDisplayValue": "1st"
+},
+{
+"name": "blockFoulRatio",
+"displayName": "Block To Foul Ratio",
+"shortDisplayName": "BLK/PF",
+"description": "The average number of blocks a player or record per foul committed.",
+"abbreviation": "BLK/PF",
+"value": 0.032258064,
+"displayValue": "0.0",
+"rank": 1,
+"rankDisplayValue": "1st"
+},
+{
+"name": "avgTeamRebounds",
+"displayName": "Team Rebounds Per Game",
+"shortDisplayName": "TREBPG",
+"description": "The average number of rebounds for a team per game.",
+"abbreviation": "TREBPG",
+"value": 0.0,
+"displayValue": "0.0"
+},
+{
+"name": "totalRebounds",
+"displayName": "Rebounds",
+"shortDisplayName": "REB",
+"description": "The total number of rebounds for a team or player",
+"abbreviation": "REB",
+"value": 38.0,
+"displayValue": "38",
+"rank": 203,
+"rankDisplayValue": "Tied-203rd"
+},
+{
+"name": "totalTechnicalFouls",
+"displayName": "Total Technical Fouls",
+"shortDisplayName": "TECH",
+"description": "The total number of technical fouls for a team or player",
+"abbreviation": "TECH",
+"value": 2.0,
+"displayValue": "2",
+"rank": 5,
+"rankDisplayValue": "Tied-5th"
+},
+{
+"name": "teamAssistTurnoverRatio",
+"displayName": "Assist To Turnover Ratio",
+"shortDisplayName": "AST/TO",
+"description": "The number of assists per turnover for a team",
+"abbreviation": "AST/TO",
+"value": 0.0,
+"displayValue": "0.0"
+},
+{
+"name": "stealTurnoverRatio",
+"displayName": "Steal To Turnover Ratio",
+"shortDisplayName": "STL/TO",
+"description": "The number of steals per turnover",
+"abbreviation": "STL/TO",
+"value": 0.6363636,
+"displayValue": "0.6"
+},
+{
+"name": "avg48Rebounds",
+"displayName": "Rebounds Per 48 Minutes",
+"shortDisplayName": "REB/48",
+"description": "The average number of rebounds per 48 minutes.",
+"abbreviation": "REB",
+"value": 5.2263613,
+"displayValue": "5.2",
+"rank": 9744,
+"rankDisplayValue": "Tied-9,744th"
+},
+{
+"name": "avg48Fouls",
+"displayName": "Fouls Per 48 Minutes",
+"shortDisplayName": "PF/48",
+"description": "The average number of fouls committed per 48 minutes.",
+"abbreviation": "PF",
+"value": 4.2636104,
+"displayValue": "4.3",
+"rank": 3456,
+"rankDisplayValue": "Tied-3,456th"
+},
+{
+"name": "avg48FlagrantFouls",
+"displayName": "Flagrant Fouls Per 48 Minutes",
+"shortDisplayName": "FLAG/48",
+"description": "The average number of flagrant fouls committed per 48 minutes.",
+"abbreviation": "FLAG/48",
+"value": 0.0,
+"displayValue": "0.0",
+"rank": 1680,
+"rankDisplayValue": "Tied-1,680th"
+},
+{
+"name": "avg48TechnicalFouls",
+"displayName": "Technical Fouls Per 48 Minutes",
+"shortDisplayName": "TECH/48",
+"description": "The average number of technical fouls committed per 48 minutes.",
+"abbreviation": "TECH/48",
+"value": 0.27507165,
+"displayValue": "0.3",
+"rank": 240,
+"rankDisplayValue": "Tied-240th"
+},
+{
+"name": "avg48Ejections",
+"displayName": "Ejections Per 48 Minutes",
+"shortDisplayName": "EJECT/48",
+"description": "The average number of ejections per 48 minutes.",
+"abbreviation": "EJECT/48",
+"value": 0.0,
+"displayValue": "0.0",
+"rank": 96,
+"rankDisplayValue": "Tied-96th"
+},
+{
+"name": "avg48Disqualifications",
+"displayName": "Disqualifications Per 48 Minutes",
+"shortDisplayName": "DQ/48",
+"description": "The average number of disqualifications per 48 minutes.",
+"abbreviation": "DQ/48",
+"value": 0.0,
+"displayValue": "0.0",
+"rank": 1584,
+"rankDisplayValue": "Tied-1,584th"
+},
+{
+"name": "gamesPlayed",
+"displayName": "Games Played",
+"shortDisplayName": "GP",
+"description": "Games Played",
+"abbreviation": "GP",
+"value": 15.0,
+"displayValue": "15",
+"rank": 15,
+"rankDisplayValue": "15th"
+},
+{
+"name": "gamesStarted",
+"displayName": "Games Started",
+"shortDisplayName": "GS",
+"description": "The number of games started by an athlete.",
+"abbreviation": "GS",
+"value": 3.0,
+"displayValue": "3",
+"rank": 97,
+"rankDisplayValue": "Tied-97th"
+},
+{
+"name": "doubleDouble",
+"displayName": "Double Double",
+"shortDisplayName": "DBLDBL",
+"description": "The number of times double digit values were accumulated in 2 of the following categories: points, rebounds, assists, steals, and blocked shots",
+"abbreviation": "DD2",
+"value": 0.0,
+"displayValue": "0",
+"rank": 39,
+"rankDisplayValue": "Tied-39th"
+},
+{
+"name": "tripleDouble",
+"displayName": "Triple Double",
+"shortDisplayName": "TRIDBL",
+"description": "The number of times double digit values were accumulated in 3 of the following categories: points, rebounds, assists, steals, and blocked shots",
+"abbreviation": "TD3",
+"value": 0.0,
+"displayValue": "0",
+"rank": 2,
+"rankDisplayValue": "Tied-2nd"
+}
+]
+},
+{
+"name": "offensive",
+"displayName": "Offensive",
+"shortDisplayName": "Offensive",
+"abbreviation": "off",
+"summary": "",
+"stats": [
+{
+"name": "assists",
+"displayName": "Assists",
+"shortDisplayName": "AST",
+"description": "The number of times a player who passes the ball to a teammate in a way that leads to a score by field goal, meaning that he or she was \"assisting\" in the basket. There is some judgment involved in deciding whether a passer should be credited with an assist.",
+"abbreviation": "AST",
+"value": 24.0,
+"displayValue": "24",
+"rank": 73,
+"rankDisplayValue": "Tied-73rd"
+},
+{
+"name": "fieldGoals",
+"displayName": "Field Goals",
+"shortDisplayName": "FG",
+"description": "Field Goal makes and attempts.",
+"abbreviation": "FG",
+"value": 0.510204,
+"displayValue": "50/98"
+},
+{
+"name": "fieldGoalsAttempted",
+"displayName": "Field Goals Attempted",
+"shortDisplayName": "FGA",
+"description": "The number of times a 2pt field goal was attempted.",
+"abbreviation": "FGA",
+"value": 98.0,
+"displayValue": "98",
+"rank": 69,
+"rankDisplayValue": "Tied-69th"
+},
+{
+"name": "fieldGoalsMade",
+"displayName": "Field Goals Made",
+"shortDisplayName": "FGM",
+"description": "The number of times a 2pt field goal was made.",
+"abbreviation": "FGM",
+"value": 50.0,
+"displayValue": "50",
+"rank": 54,
+"rankDisplayValue": "Tied-54th"
+},
+{
+"name": "fieldGoalPct",
+"displayName": "Field Goal Percentage",
+"shortDisplayName": "FG%",
+"description": "The ratio of field goals made to field goals attempted: FGM / FGA",
+"abbreviation": "FG%",
+"value": 51.02,
+"displayValue": "51.0"
+},
+{
+"name": "freeThrows",
+"displayName": "Free Throws",
+"shortDisplayName": "FT",
+"description": "Free Throw makes and attempts.",
+"abbreviation": "FT",
+"value": 0.875,
+"displayValue": "28/32"
+},
+{
+"name": "freeThrowPct",
+"displayName": "Free Throw Percentage",
+"shortDisplayName": "FT%",
+"description": "The ratio of free throws made to free throws attempted: FTM / FTA",
+"abbreviation": "FT%",
+"value": 87.5,
+"displayValue": "87.5"
+},
+{
+"name": "freeThrowsAttempted",
+"displayName": "Free Throws Attempted",
+"shortDisplayName": "FTA",
+"description": "The number of times a free throw was attempted.",
+"abbreviation": "FTA",
+"value": 32.0,
+"displayValue": "32",
+"rank": 61,
+"rankDisplayValue": "Tied-61st"
+},
+{
+"name": "freeThrowsMade",
+"displayName": "Free Throws Made",
+"shortDisplayName": "FTM",
+"description": "The number of times a free throw was made.",
+"abbreviation": "FTM",
+"value": 28.0,
+"displayValue": "28",
+"rank": 53,
+"rankDisplayValue": "Tied-53rd"
+},
+{
+"name": "offensiveRebounds",
+"displayName": "Offensive Rebounds",
+"shortDisplayName": "OREB",
+"description": "The number of times when the offense obtains the possession of the ball after a missed shot.",
+"abbreviation": "OR",
+"value": 4.0,
+"displayValue": "4",
+"rank": 130,
+"rankDisplayValue": "Tied-130th"
+},
+{
+"name": "points",
+"displayName": "Points",
+"shortDisplayName": "PTS",
+"description": "The number of points scored.",
+"abbreviation": "PTS",
+"value": 156.0,
+"displayValue": "156",
+"rank": 49,
+"rankDisplayValue": "Tied-49th"
+},
+{
+"name": "turnovers",
+"displayName": "Turnovers",
+"shortDisplayName": "TO",
+"description": "The number of times a player loses possession to the other team.",
+"abbreviation": "TO",
+"value": 11.0,
+"displayValue": "11",
+"rank": 117,
+"rankDisplayValue": "Tied-117th"
+},
+{
+"name": "threePointPct",
+"displayName": "3-Point Field Goal Percentage",
+"shortDisplayName": "3P%",
+"description": "The ratio of 3pt field goals made to 3pt field goals attempted: 3PM / 3PA.",
+"abbreviation": "3P%",
+"value": 43.75,
+"displayValue": "43.8"
+},
+{
+"name": "threePointFieldGoalsAttempted",
+"displayName": "3-Point Field Goals Attempted",
+"shortDisplayName": "3PA",
+"description": "The number of times a 3pt field goal was attempted.",
+"abbreviation": "3PA",
+"value": 64.0,
+"displayValue": "64",
+"rank": 28,
+"rankDisplayValue": "Tied-28th"
+},
+{
+"name": "threePointFieldGoalsMade",
+"displayName": "3-Point Field Goals Made",
+"shortDisplayName": "3PM",
+"description": "The number of times a 3pt field goal was made.",
+"abbreviation": "3PM",
+"value": 28.0,
+"displayValue": "28",
+"rank": 19,
+"rankDisplayValue": "Tied-19th"
+},
+{
+"name": "totalTurnovers",
+"displayName": "Total Turnovers",
+"shortDisplayName": "ToTO",
+"description": "The number of turnovers plus team turnovers for the team.",
+"abbreviation": "ToTO",
+"value": 11.0,
+"displayValue": "11"
+},
+{
+"name": "pointsInPaint",
+"displayName": "Points in the Paint",
+"shortDisplayName": "PIP",
+"description": "The amount of points scored in the area known as \"the Paint\"(the rectangle between the foul line and the baseline).",
+"abbreviation": "PIP",
+"value": 0.0,
+"displayValue": "0",
+"rank": 1,
+"rankDisplayValue": "Tied-1st"
+},
+{
+"name": "brickIndex",
+"displayName": "Brick Index",
+"shortDisplayName": "BI",
+"description": "How many points a player costs his team with his shooting compared with the league average on a per-40-minute basis. ((52.8 - TS%) x (FGA + (FTA x 0.44))) / (Min/40) .",
+"abbreviation": "BI",
+"value": 0.0,
+"displayValue": "0.00"
+},
+{
+"name": "avgFieldGoalsMade",
+"displayName": "Average Field Goals Made",
+"shortDisplayName": "AFGM",
+"description": "The average field goals made per game.",
+"abbreviation": "FGM",
+"value": 3.3333333,
+"displayValue": "3.3"
+},
+{
+"name": "avgFieldGoalsAttempted",
+"displayName": "Average Field Goals Attempted",
+"shortDisplayName": "AFGA",
+"description": "The average field goals attempted per game.",
+"abbreviation": "FGA",
+"value": 6.5333333,
+"displayValue": "6.5"
+},
+{
+"name": "avgThreePointFieldGoalsMade",
+"displayName": "Average 3-Point Field Goals Made",
+"shortDisplayName": "A3PM",
+"description": "The average three point field goals made per game.",
+"abbreviation": "3PM",
+"value": 1.8666667,
+"displayValue": "1.9"
+},
+{
+"name": "avgThreePointFieldGoalsAttempted",
+"displayName": "Average 3-Point Field Goals Attempted",
+"shortDisplayName": "A3PA",
+"description": "The average three point field goals attempted per game.",
+"abbreviation": "3PA",
+"value": 4.266667,
+"displayValue": "4.3"
+},
+{
+"name": "avgFreeThrowsMade",
+"displayName": "Average Free Throws Made",
+"shortDisplayName": "AFTM",
+"description": "The average free throw shots made per game.",
+"abbreviation": "FTM",
+"value": 1.8666667,
+"displayValue": "1.9"
+},
+{
+"name": "avgFreeThrowsAttempted",
+"displayName": "Average Free Throws Attempted",
+"shortDisplayName": "AFTA",
+"description": "The average free throw shots attempted per game.",
+"abbreviation": "FTA",
+"value": 2.1333334,
+"displayValue": "2.1"
+},
+{
+"name": "avgPoints",
+"displayName": "Points Per Game",
+"shortDisplayName": "PPG",
+"description": "The average number of points scored per game.",
+"abbreviation": "PTS",
+"value": 10.4,
+"displayValue": "10.4"
+},
+{
+"name": "avgOffensiveRebounds",
+"displayName": "Offensive Rebounds Per Game",
+"shortDisplayName": "ORPG",
+"description": "The average offensive rebounds per game.",
+"abbreviation": "OR",
+"value": 0.26666668,
+"displayValue": "0.3"
+},
+{
+"name": "avgAssists",
+"displayName": "Assists Per Game",
+"shortDisplayName": "APG",
+"description": "The average assists per game.",
+"abbreviation": "AST",
+"value": 1.6,
+"displayValue": "1.6"
+},
+{
+"name": "avgTurnovers",
+"displayName": "Turnovers Per Game",
+"shortDisplayName": "TOPG",
+"description": "The average turnovers committed per game.",
+"abbreviation": "TO",
+"value": 0.73333335,
+"displayValue": "0.7"
+},
+{
+"name": "offensiveReboundPct",
+"displayName": "Offensive Rebound Percentage",
+"shortDisplayName": "OR%",
+"description": "The percentage of the number of times they obtain the possession of the ball after a missed shot.",
+"abbreviation": "OR%",
+"value": 0.083333336,
+"displayValue": "0.1",
+"rank": 8,
+"rankDisplayValue": "8th"
+},
+{
+"name": "estimatedPossessions",
+"displayName": "Estimated Possessions",
+"shortDisplayName": "EP",
+"description": "An estimation of the number of possessions for a team or player.",
+"abbreviation": "EP",
+"value": 117.8,
+"displayValue": "117.8",
+"rank": 80,
+"rankDisplayValue": "Tied-80th"
+},
+{
+"name": "avgEstimatedPossessions",
+"displayName": "Estimated Possessions Per Game",
+"shortDisplayName": "AEP",
+"description": "The average number of estimated possessions per game for a team or player.",
+"abbreviation": "EP",
+"value": 7.8533335,
+"displayValue": "7.9",
+"rank": 5,
+"rankDisplayValue": "Tied-5th"
+},
+{
+"name": "pointsPerEstimatedPossessions",
+"displayName": "Points Per Estimated Possession",
+"shortDisplayName": "PPEP",
+"description": "The number of points per estimated possession for a team or player",
+"abbreviation": "PPEP",
+"value": 1.3242784,
+"displayValue": "1.3"
+},
+{
+"name": "avgTeamTurnovers",
+"displayName": "Team Turnovers Per Game",
+"shortDisplayName": "ATTO",
+"description": "The average number of turnovers for a team per game.",
+"abbreviation": "TTO",
+"value": 0.0,
+"displayValue": "0.0"
+},
+{
+"name": "avgTotalTurnovers",
+"displayName": "Total Turnovers Per Game",
+"shortDisplayName": "AToTO",
+"description": "The average number of total turnovers for a team per game.",
+"abbreviation": "ToTO",
+"value": 0.7333333492279053,
+"displayValue": "0.7"
+},
+{
+"name": "threePointFieldGoalPct",
+"displayName": "3-Point Field Goal Percentage",
+"shortDisplayName": "3P%",
+"description": "The ratio of 3pt field goals made to 3pt field goals attempted: 3PM / 3PA.",
+"abbreviation": "3P%",
+"value": 43.75,
+"displayValue": "43.8"
+},
+{
+"name": "twoPointFieldGoalsMade",
+"displayName": "2-Point Field Goals Made",
+"shortDisplayName": "2PM",
+"description": "The number of 2-point field goals made for a team or player.",
+"abbreviation": "2PM",
+"value": 22.0,
+"displayValue": "22.0",
+"rank": 35,
+"rankDisplayValue": "Tied-35th"
+},
+{
+"name": "twoPointFieldGoalsAttempted",
+"displayName": "2-Point Field Goals Attempted",
+"shortDisplayName": "2PA",
+"description": "The number of 2-point field goals attempted for a team or player.",
+"abbreviation": "2PA",
+"value": 34.0,
+"displayValue": "34.0",
+"rank": 41,
+"rankDisplayValue": "Tied-41st"
+},
+{
+"name": "avgTwoPointFieldGoalsMade",
+"displayName": "2-Point Field Goals Made per Game",
+"shortDisplayName": "2PM",
+"description": "The number of 2-point field goals made per game for a team or player.",
+"abbreviation": "2PM",
+"value": 1.4666667,
+"displayValue": "1.5",
+"rank": 2,
+"rankDisplayValue": "Tied-2nd"
+},
+{
+"name": "avgTwoPointFieldGoalsAttempted",
+"displayName": "2-Point Field Goals Attempted per Game",
+"shortDisplayName": "2PA",
+"description": "The number of 2-point field goals attempted per game for a team or player.",
+"abbreviation": "2PA",
+"value": 2.2666667,
+"displayValue": "2.3",
+"rank": 2,
+"rankDisplayValue": "Tied-2nd"
+},
+{
+"name": "twoPointFieldGoalPct",
+"displayName": "2-Point Field Goal Percentage",
+"shortDisplayName": "2P%",
+"description": "The percentage of 2-points fields goals made by a team or player.",
+"abbreviation": "2P%",
+"value": 64.70588445663452,
+"displayValue": "64.7"
+},
+{
+"name": "shootingEfficiency",
+"displayName": "Shooting Efficiency",
+"shortDisplayName": "SH-EFF",
+"description": "The efficiency with which a team or player shoots the basketball.",
+"abbreviation": "SH-EFF",
+"value": 0.6530612,
+"displayValue": "0.65"
+},
+{
+"name": "scoringEfficiency",
+"displayName": "Scoring Efficiency",
+"shortDisplayName": "SC-EFF",
+"description": "The efficiency with which a team or player scores the basketball.",
+"abbreviation": "SC-EFF",
+"value": 1.5918367,
+"displayValue": "1.592"
+},
+{
+"name": "avg48FieldGoalsMade",
+"displayName": "Fieldgoals Made Per 48",
+"shortDisplayName": "FGM/48",
+"description": "The average number of fieldgoals made per 48 minutes.",
+"abbreviation": "FGM/48",
+"value": 6.8767905,
+"displayValue": "6.9",
+"rank": 2592,
+"rankDisplayValue": "Tied-2,592nd"
+},
+{
+"name": "avg48FieldGoalsAttempted",
+"displayName": "Fieldgoals Attempted Per 48",
+"shortDisplayName": "FGA/48",
+"description": "The average number of fieldgoals attempted per 48 minutes.",
+"abbreviation": "FGA/48",
+"value": 13.47851,
+"displayValue": "13.5",
+"rank": 3312,
+"rankDisplayValue": "Tied-3,312th"
+},
+{
+"name": "avg48ThreePointFieldGoalsMade",
+"displayName": "3-Point Fieldgoals Made Per 48",
+"shortDisplayName": "3PM/48",
+"description": "The average per number of 3-Pointers made per 48 minutes.",
+"abbreviation": "3PM/48",
+"value": 3.8510027,
+"displayValue": "3.9",
+"rank": 912,
+"rankDisplayValue": "Tied-912th"
+},
+{
+"name": "avg48ThreePointFieldGoalsAttempted",
+"displayName": "3-Point Fieldgoals Attempted Per 48",
+"shortDisplayName": "3PA/48",
+"description": "The average number of 3-pointers attempted per 48 minutes.",
+"abbreviation": "3PA/48",
+"value": 8.802293,
+"displayValue": "8.8",
+"rank": 1344,
+"rankDisplayValue": "Tied-1,344th"
+},
+{
+"name": "avg48FreeThrowsMade",
+"displayName": "Freethrows Made Per 48",
+"shortDisplayName": "FTM/48",
+"description": "The average number of Free Throws made per 48 minutes.",
+"abbreviation": "FTM/48",
+"value": 3.8510027,
+"displayValue": "3.9",
+"rank": 2544,
+"rankDisplayValue": "Tied-2,544th"
+},
+{
+"name": "avg48FreeThrowsAttempted",
+"displayName": "Freethrows Attempted Per 48",
+"shortDisplayName": "FTA/48",
+"description": "The average number of free throws attempted per 48 minutes.",
+"abbreviation": "FTA/48",
+"value": 4.4011464,
+"displayValue": "4.4",
+"rank": 2928,
+"rankDisplayValue": "Tied-2,928th"
+},
+{
+"name": "avg48Points",
+"displayName": "Points Scored Per 48",
+"shortDisplayName": "PTS/48",
+"description": "The average number of points scored per 48 minutes.",
+"abbreviation": "PTS",
+"value": 21.455587,
+"displayValue": "21.5",
+"rank": 2352,
+"rankDisplayValue": "Tied-2,352nd"
+},
+{
+"name": "avg48OffensiveRebounds",
+"displayName": "Offensive Rebounds Per 48",
+"shortDisplayName": "OREB/48",
+"description": "The average number of offenseive rebounds per 48 minutes.",
+"abbreviation": "OR",
+"value": 0.5501433,
+"displayValue": "0.6",
+"rank": 6240,
+"rankDisplayValue": "Tied-6,240th"
+},
+{
+"name": "avg48Assists",
+"displayName": "Assists Per 48",
+"shortDisplayName": "AST/48",
+"description": "The average number of assists per 48 minutes.",
+"abbreviation": "AST",
+"value": 3.3008595,
+"displayValue": "3.3",
+"rank": 3504,
+"rankDisplayValue": "Tied-3,504th"
+},
+{
+"name": "avg48Turnovers",
+"displayName": "Turnovers",
+"shortDisplayName": "TO/48",
+"description": "The average number of turnovers per 48 minutes.",
+"abbreviation": "TO",
+"value": 1.5128939,
+"displayValue": "1.5",
+"rank": 5616,
+"rankDisplayValue": "Tied-5,616th"
+}
+]
+}
+]
+},
+"seasonType": {
+"$ref": "http://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2026/types/2?lang=en&region=us"
+}
 }

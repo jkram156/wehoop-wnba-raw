@@ -1,5 +1,5 @@
 {
-"timestamp": "2026-05-12T00:55:20Z",
+"timestamp": "2026-06-23T06:07:34Z",
 "status": "success",
 "season": {
 "year": 2026,
@@ -56,11 +56,39 @@
 {
 "language": "en-US",
 "rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4565501&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "gamelog",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/gamelog/_/id/4565501/janiah-barker",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4565501&section=gamelog",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -82,6 +110,20 @@
 {
 "language": "en-US",
 "rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4565501&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "bio",
 "desktop",
 "athlete"
@@ -95,11 +137,39 @@
 {
 "language": "en-US",
 "rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4565501&section=bio",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "overview",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/_/id/4565501/janiah-barker",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4565501",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -163,8 +233,8 @@
 },
 "injuries": [
 {
-"status": "Day-To-Day",
-"date": "2026-05-11T00:24Z"
+"status": "Out",
+"date": "2026-06-23T00:14Z"
 }
 ],
 "contracts": [],
@@ -226,11 +296,39 @@
 {
 "language": "en-US",
 "rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4433633&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "gamelog",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/gamelog/_/id/4433633/kierstan-bell",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4433633&section=gamelog",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -252,6 +350,20 @@
 {
 "language": "en-US",
 "rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4433633&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "bio",
 "desktop",
 "athlete"
@@ -265,11 +377,39 @@
 {
 "language": "en-US",
 "rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4433633&section=bio",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "overview",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/_/id/4433633/kierstan-bell",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4433633",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -391,11 +531,39 @@
 {
 "language": "en-US",
 "rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4280892&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "gamelog",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/gamelog/_/id/4280892/chennedy-carter",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4280892&section=gamelog",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -417,6 +585,20 @@
 {
 "language": "en-US",
 "rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4280892&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "bio",
 "desktop",
 "athlete"
@@ -430,11 +612,39 @@
 {
 "language": "en-US",
 "rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4280892&section=bio",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "overview",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/_/id/4280892/chennedy-carter",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4280892",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -491,7 +701,12 @@
 "abbreviation": "G",
 "leaf": false
 },
-"injuries": [],
+"injuries": [
+{
+"status": "Out",
+"date": "2026-06-23T00:06Z"
+}
+],
 "contracts": [],
 "experience": {
 "years": 4
@@ -551,11 +766,39 @@
 {
 "language": "en-US",
 "rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4281190&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "gamelog",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/gamelog/_/id/4281190/dana-evans",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4281190&section=gamelog",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -577,6 +820,20 @@
 {
 "language": "en-US",
 "rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4281190&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "bio",
 "desktop",
 "athlete"
@@ -590,11 +847,39 @@
 {
 "language": "en-US",
 "rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4281190&section=bio",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "overview",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/_/id/4281190/dana-evans",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4281190",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -654,7 +939,7 @@
 "injuries": [
 {
 "status": "Out",
-"date": "2026-05-10T21:37Z"
+"date": "2026-06-13T00:06Z"
 }
 ],
 "contracts": [],
@@ -716,11 +1001,39 @@
 {
 "language": "en-US",
 "rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:2529122&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "gamelog",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/gamelog/_/id/2529122/chelsea-gray",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:2529122&section=gamelog",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -742,6 +1055,20 @@
 {
 "language": "en-US",
 "rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:2529122&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "bio",
 "desktop",
 "athlete"
@@ -755,11 +1082,39 @@
 {
 "language": "en-US",
 "rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:2529122&section=bio",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "overview",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/_/id/2529122/chelsea-gray",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:2529122",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -876,11 +1231,39 @@
 {
 "language": "en-US",
 "rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:2987869&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "gamelog",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/gamelog/_/id/2987869/jewell-loyd",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:2987869&section=gamelog",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -902,6 +1285,20 @@
 {
 "language": "en-US",
 "rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:2987869&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "bio",
 "desktop",
 "athlete"
@@ -915,11 +1312,39 @@
 {
 "language": "en-US",
 "rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:2987869&section=bio",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "overview",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/_/id/2987869/jewell-loyd",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:2987869",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -1036,11 +1461,39 @@
 {
 "language": "en-US",
 "rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:2529458&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "gamelog",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/gamelog/_/id/2529458/cheyenne-parker-tyus",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:2529458&section=gamelog",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -1062,6 +1515,20 @@
 {
 "language": "en-US",
 "rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:2529458&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "bio",
 "desktop",
 "athlete"
@@ -1075,11 +1542,39 @@
 {
 "language": "en-US",
 "rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:2529458&section=bio",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "overview",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/_/id/2529458/cheyenne-parker-tyus",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:2529458",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -1196,11 +1691,39 @@
 {
 "language": "en-US",
 "rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4398776&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "gamelog",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/gamelog/_/id/4398776/nalyssa-smith",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4398776&section=gamelog",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -1222,6 +1745,20 @@
 {
 "language": "en-US",
 "rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4398776&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "bio",
 "desktop",
 "athlete"
@@ -1235,11 +1772,39 @@
 {
 "language": "en-US",
 "rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4398776&section=bio",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "overview",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/_/id/4398776/nalyssa-smith",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4398776",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -1329,7 +1894,7 @@
 "displayWeight": "192 lbs",
 "height": 74.0,
 "displayHeight": "6' 2\"",
-"age": 31,
+"age": 32,
 "dateOfBirth": "1994-06-15T07:00Z",
 "links": [
 {
@@ -1361,11 +1926,39 @@
 {
 "language": "en-US",
 "rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3099736&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "gamelog",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/gamelog/_/id/3099736/stephanie-talbot",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3099736&section=gamelog",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -1387,6 +1980,20 @@
 {
 "language": "en-US",
 "rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3099736&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "bio",
 "desktop",
 "athlete"
@@ -1400,11 +2007,39 @@
 {
 "language": "en-US",
 "rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3099736&section=bio",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "overview",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/_/id/3099736/stephanie-talbot",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3099736",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -1490,11 +2125,39 @@
 {
 "language": "en-US",
 "rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3142086&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "gamelog",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/gamelog/_/id/3142086/brianna-turner",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3142086&section=gamelog",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -1516,6 +2179,20 @@
 {
 "language": "en-US",
 "rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3142086&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "bio",
 "desktop",
 "athlete"
@@ -1529,11 +2206,39 @@
 {
 "language": "en-US",
 "rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3142086&section=bio",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "overview",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/_/id/3142086/brianna-turner",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3142086",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -1650,11 +2355,39 @@
 {
 "language": "en-US",
 "rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3149391&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "gamelog",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/gamelog/_/id/3149391/aja-wilson",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3149391&section=gamelog",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -1676,6 +2409,20 @@
 {
 "language": "en-US",
 "rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3149391&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "bio",
 "desktop",
 "athlete"
@@ -1689,11 +2436,39 @@
 {
 "language": "en-US",
 "rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3149391&section=bio",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "overview",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/_/id/3149391/aja-wilson",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:3149391",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -1810,11 +2585,39 @@
 {
 "language": "en-US",
 "rel": [
+"stats",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4065870&section=stats",
+"text": "Stats",
+"shortText": "Stats",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "gamelog",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/gamelog/_/id/4065870/jackie-young",
+"text": "Game Log",
+"shortText": "Game Log",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"gamelog",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4065870&section=gamelog",
 "text": "Game Log",
 "shortText": "Game Log",
 "isExternal": false,
@@ -1836,6 +2639,20 @@
 {
 "language": "en-US",
 "rel": [
+"news",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4065870&section=news",
+"text": "News",
+"shortText": "News",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "bio",
 "desktop",
 "athlete"
@@ -1849,11 +2666,39 @@
 {
 "language": "en-US",
 "rel": [
+"bio",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4065870&section=bio",
+"text": "Bio",
+"shortText": "Bio",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
 "overview",
 "desktop",
 "athlete"
 ],
 "href": "https://www.espn.com/wnba/player/_/id/4065870/jackie-young",
+"text": "Overview",
+"shortText": "Overview",
+"isExternal": false,
+"isPremium": false
+},
+{
+"language": "en-US",
+"rel": [
+"overview",
+"sportscenter",
+"app",
+"athlete"
+],
+"href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:59~a:4065870",
 "text": "Overview",
 "shortText": "Overview",
 "isExternal": false,
@@ -1939,8 +2784,8 @@
 "clubhouse": "https://www.espn.com/wnba/team/_/name/lv/las-vegas-aces",
 "color": "a7a8aa",
 "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/lv.png",
-"recordSummary": "1-1",
+"recordSummary": "12-4",
 "seasonSummary": "2026",
-"standingSummary": "3rd in Western Conference Division"
+"standingSummary": "2nd in Western Conference Division"
 }
 }

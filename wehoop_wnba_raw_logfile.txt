@@ -4213,3 +4213,51 @@ INFO:__main__:Scraping WNBA PBP for 2026...
 INFO:__main__:Number of Games: 122
 INFO:__main__:0.9035025676091512 minutes to download 122 game play-by-plays.
 INFO:__main__:Finished WNBA PBP for 2026...
+INFO:__main__:Scraping WNBA schedules for year 2026...
+WARNING:sdv.dl_utils:HTTPSConnectionPool(host='sports.core.api.espn.com', port=443): Max retries exceeded with url: /v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)'))) for url (https://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays) [retry 1/15]
+WARNING:sdv.dl_utils:HTTPSConnectionPool(host='sports.core.api.espn.com', port=443): Max retries exceeded with url: /v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)'))) for url (https://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays) [retry 2/15]
+WARNING:sdv.dl_utils:HTTPSConnectionPool(host='sports.core.api.espn.com', port=443): Max retries exceeded with url: /v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)'))) for url (https://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays) [retry 3/15]
+WARNING:sdv.dl_utils:HTTPSConnectionPool(host='sports.core.api.espn.com', port=443): Max retries exceeded with url: /v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)'))) for url (https://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays) [retry 4/15]
+WARNING:sdv.dl_utils:HTTPSConnectionPool(host='sports.core.api.espn.com', port=443): Max retries exceeded with url: /v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)'))) for url (https://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays) [retry 5/15]
+WARNING:sdv.dl_utils:HTTPSConnectionPool(host='sports.core.api.espn.com', port=443): Max retries exceeded with url: /v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)'))) for url (https://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays) [retry 6/15]
+WARNING:sdv.dl_utils:HTTPSConnectionPool(host='sports.core.api.espn.com', port=443): Max retries exceeded with url: /v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)'))) for url (https://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays) [retry 7/15]
+WARNING:sdv.dl_utils:HTTPSConnectionPool(host='sports.core.api.espn.com', port=443): Max retries exceeded with url: /v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)'))) for url (https://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays) [retry 8/15]
+WARNING:sdv.dl_utils:HTTPSConnectionPool(host='sports.core.api.espn.com', port=443): Max retries exceeded with url: /v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)'))) for url (https://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays) [retry 9/15]
+WARNING:sdv.dl_utils:HTTPSConnectionPool(host='sports.core.api.espn.com', port=443): Max retries exceeded with url: /v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)'))) for url (https://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays) [retry 10/15]
+WARNING:sdv.dl_utils:HTTPSConnectionPool(host='sports.core.api.espn.com', port=443): Max retries exceeded with url: /v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)'))) for url (https://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays) [retry 11/15]
+WARNING:sdv.dl_utils:HTTPSConnectionPool(host='sports.core.api.espn.com', port=443): Max retries exceeded with url: /v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)'))) for url (https://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays) [retry 12/15]
+WARNING:sdv.dl_utils:HTTPSConnectionPool(host='sports.core.api.espn.com', port=443): Max retries exceeded with url: /v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)'))) for url (https://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays) [retry 13/15]
+WARNING:sdv.dl_utils:HTTPSConnectionPool(host='sports.core.api.espn.com', port=443): Max retries exceeded with url: /v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)'))) for url (https://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays) [retry 14/15]
+WARNING:sdv.dl_utils:HTTPSConnectionPool(host='sports.core.api.espn.com', port=443): Max retries exceeded with url: /v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)'))) for url (https://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays) [retry 15/15]
+ERROR:sdv.dl_utils:Retry Limit Exceeded: https://sports.core.api.espn.com/v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays 
+params: {}
+ HTTPSConnectionPool(host='sports.core.api.espn.com', port=443): Max retries exceeded with url: /v2/sports/basketball/leagues/wnba/seasons/2026/types/2/calendar/ondays (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+INFO:__main__:Scraping WNBA schedules for year 2026...
+INFO:__main__:0.38111147085825603 minutes to download 1 years of season schedules.
+INFO:__main__:Scraping WNBA PBP for 2026...
+INFO:__main__:Number of Games: 126
+ERROR:__main__:KeyError: game_id =  game_id = 401857006
+ Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\python\scrape_wnba_json.py", line 78, in download_game
+    result = sdv.wnba.helper_wnba_pbp(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\sportsdataverse\wnba\wnba_pbp.py", line 128, in helper_wnba_pbp
+    pbp_txt, init = helper_wnba_game_data(pbp_txt, init)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\sportsdataverse\wnba\wnba_pbp.py", line 165, in helper_wnba_game_data
+    pbp_txt["teamInfo"] = pbp_txt["header"]["competitions"][0]
+                          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'competitions'
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\python\scrape_wnba_json.py", line 78, in download_game
+    result = sdv.wnba.helper_wnba_pbp(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\sportsdataverse\wnba\wnba_pbp.py", line 128, in helper_wnba_pbp
+    pbp_txt, init = helper_wnba_game_data(pbp_txt, init)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\sportsdataverse\wnba\wnba_pbp.py", line 165, in helper_wnba_game_data
+    pbp_txt["teamInfo"] = pbp_txt["header"]["competitions"][0]
+                          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'competitions'
+INFO:__main__:0.5391438841819763 minutes to download 126 game play-by-plays.
+INFO:__main__:Finished WNBA PBP for 2026...
