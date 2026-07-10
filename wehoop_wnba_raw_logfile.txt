@@ -4265,3 +4265,708 @@ INFO:__main__:Scraping WNBA PBP for 2026...
 INFO:__main__:Number of Games: 126
 INFO:__main__:0.7059370835622152 minutes to download 126 game play-by-plays.
 INFO:__main__:Finished WNBA PBP for 2026...
+INFO:__main__:Scraping WNBA schedules for year 2026...
+INFO:__main__:0.45113948583602903 minutes to download 1 years of season schedules.
+INFO:__main__:Scraping WNBA schedules for year 2026...
+INFO:__main__:0.41370035807291666 minutes to download 1 years of season schedules.
+INFO:__main__:Scraping WNBA PBP for 2026...
+INFO:__main__:Number of Games: 144
+WARNING:sdv.dl_utils:('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)) for url (http://site.api.espn.com/apis/site/v2/sports/basketball/wnba/summary?event=401856898) [retry 1/15]
+WARNING:sdv.dl_utils:('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)) for url (http://site.api.espn.com/apis/site/v2/sports/basketball/wnba/summary?event=401856899) [retry 1/15]
+WARNING:sdv.dl_utils:('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)) for url (http://site.api.espn.com/apis/site/v2/sports/basketball/wnba/summary?event=401856894) [retry 1/15]
+WARNING:sdv.dl_utils:('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)) for url (http://site.api.espn.com/apis/site/v2/sports/basketball/wnba/summary?event=401856902) [retry 1/15]
+WARNING:sdv.dl_utils:('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)) for url (http://site.api.espn.com/apis/site/v2/sports/basketball/wnba/summary?event=401856904) [retry 1/15]
+WARNING:sdv.dl_utils:('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)) for url (http://site.api.espn.com/apis/site/v2/sports/basketball/wnba/summary?event=401856890) [retry 1/15]
+ERROR:__main__:DecodeError: game_id = 401856906
+ Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1116, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\python\scrape_wnba_json.py", line 50, in download_game
+    g = sdv.wnba.espn_wnba_pbp(game_id = game, raw = True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\sportsdataverse\wnba\wnba_pbp.py", line 60, in espn_wnba_pbp
+    summary = summary_resp.json()
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1120, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1116, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\python\scrape_wnba_json.py", line 50, in download_game
+    g = sdv.wnba.espn_wnba_pbp(game_id = game, raw = True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\sportsdataverse\wnba\wnba_pbp.py", line 60, in espn_wnba_pbp
+    summary = summary_resp.json()
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1120, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:__main__:DecodeError: game_id = 401856907
+ Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1116, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\python\scrape_wnba_json.py", line 50, in download_game
+    g = sdv.wnba.espn_wnba_pbp(game_id = game, raw = True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\sportsdataverse\wnba\wnba_pbp.py", line 60, in espn_wnba_pbp
+    summary = summary_resp.json()
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1120, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1116, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\python\scrape_wnba_json.py", line 50, in download_game
+    g = sdv.wnba.espn_wnba_pbp(game_id = game, raw = True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\sportsdataverse\wnba\wnba_pbp.py", line 60, in espn_wnba_pbp
+    summary = summary_resp.json()
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1120, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:__main__:DecodeError: game_id = 401856915
+ Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1116, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\python\scrape_wnba_json.py", line 50, in download_game
+    g = sdv.wnba.espn_wnba_pbp(game_id = game, raw = True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\sportsdataverse\wnba\wnba_pbp.py", line 60, in espn_wnba_pbp
+    summary = summary_resp.json()
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1120, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1116, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\python\scrape_wnba_json.py", line 50, in download_game
+    g = sdv.wnba.espn_wnba_pbp(game_id = game, raw = True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\sportsdataverse\wnba\wnba_pbp.py", line 60, in espn_wnba_pbp
+    summary = summary_resp.json()
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1120, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:__main__:DecodeError: game_id = 401856916
+ Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1116, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\python\scrape_wnba_json.py", line 50, in download_game
+    g = sdv.wnba.espn_wnba_pbp(game_id = game, raw = True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\sportsdataverse\wnba\wnba_pbp.py", line 60, in espn_wnba_pbp
+    summary = summary_resp.json()
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1120, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1116, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\python\scrape_wnba_json.py", line 50, in download_game
+    g = sdv.wnba.espn_wnba_pbp(game_id = game, raw = True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\sportsdataverse\wnba\wnba_pbp.py", line 60, in espn_wnba_pbp
+    summary = summary_resp.json()
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1120, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:__main__:DecodeError: game_id = 401856908
+ Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1116, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\python\scrape_wnba_json.py", line 50, in download_game
+    g = sdv.wnba.espn_wnba_pbp(game_id = game, raw = True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\sportsdataverse\wnba\wnba_pbp.py", line 60, in espn_wnba_pbp
+    summary = summary_resp.json()
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1120, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1116, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\python\scrape_wnba_json.py", line 50, in download_game
+    g = sdv.wnba.espn_wnba_pbp(game_id = game, raw = True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\sportsdataverse\wnba\wnba_pbp.py", line 60, in espn_wnba_pbp
+    summary = summary_resp.json()
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1120, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:__main__:DecodeError: game_id = 401856905
+ Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1116, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\python\scrape_wnba_json.py", line 50, in download_game
+    g = sdv.wnba.espn_wnba_pbp(game_id = game, raw = True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\sportsdataverse\wnba\wnba_pbp.py", line 60, in espn_wnba_pbp
+    summary = summary_resp.json()
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1120, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1116, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\python\scrape_wnba_json.py", line 50, in download_game
+    g = sdv.wnba.espn_wnba_pbp(game_id = game, raw = True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\sportsdataverse\wnba\wnba_pbp.py", line 60, in espn_wnba_pbp
+    summary = summary_resp.json()
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1120, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:__main__:DecodeError: game_id = 401856903
+ Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1116, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\python\scrape_wnba_json.py", line 50, in download_game
+    g = sdv.wnba.espn_wnba_pbp(game_id = game, raw = True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\sportsdataverse\wnba\wnba_pbp.py", line 60, in espn_wnba_pbp
+    summary = summary_resp.json()
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1120, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1116, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\python\scrape_wnba_json.py", line 50, in download_game
+    g = sdv.wnba.espn_wnba_pbp(game_id = game, raw = True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\sportsdataverse\wnba\wnba_pbp.py", line 60, in espn_wnba_pbp
+    summary = summary_resp.json()
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1120, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:__main__:DecodeError: game_id = 401856918
+ Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1116, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\python\scrape_wnba_json.py", line 50, in download_game
+    g = sdv.wnba.espn_wnba_pbp(game_id = game, raw = True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\sportsdataverse\wnba\wnba_pbp.py", line 60, in espn_wnba_pbp
+    summary = summary_resp.json()
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1120, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1116, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\python\scrape_wnba_json.py", line 50, in download_game
+    g = sdv.wnba.espn_wnba_pbp(game_id = game, raw = True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\sportsdataverse\wnba\wnba_pbp.py", line 60, in espn_wnba_pbp
+    summary = summary_resp.json()
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1120, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:__main__:DecodeError: game_id = 401856914
+ Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1116, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\python\scrape_wnba_json.py", line 50, in download_game
+    g = sdv.wnba.espn_wnba_pbp(game_id = game, raw = True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\sportsdataverse\wnba\wnba_pbp.py", line 60, in espn_wnba_pbp
+    summary = summary_resp.json()
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1120, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1116, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\python\scrape_wnba_json.py", line 50, in download_game
+    g = sdv.wnba.espn_wnba_pbp(game_id = game, raw = True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\sportsdataverse\wnba\wnba_pbp.py", line 60, in espn_wnba_pbp
+    summary = summary_resp.json()
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1120, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:__main__:DecodeError: game_id = 401856912
+ Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1116, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\python\scrape_wnba_json.py", line 50, in download_game
+    g = sdv.wnba.espn_wnba_pbp(game_id = game, raw = True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\sportsdataverse\wnba\wnba_pbp.py", line 60, in espn_wnba_pbp
+    summary = summary_resp.json()
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1120, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1116, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\python\scrape_wnba_json.py", line 50, in download_game
+    g = sdv.wnba.espn_wnba_pbp(game_id = game, raw = True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\sportsdataverse\wnba\wnba_pbp.py", line 60, in espn_wnba_pbp
+    summary = summary_resp.json()
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1120, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:__main__:DecodeError: game_id = 401856901
+ Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1116, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\python\scrape_wnba_json.py", line 50, in download_game
+    g = sdv.wnba.espn_wnba_pbp(game_id = game, raw = True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\sportsdataverse\wnba\wnba_pbp.py", line 60, in espn_wnba_pbp
+    summary = summary_resp.json()
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1120, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1116, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\python\scrape_wnba_json.py", line 50, in download_game
+    g = sdv.wnba.espn_wnba_pbp(game_id = game, raw = True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\sportsdataverse\wnba\wnba_pbp.py", line 60, in espn_wnba_pbp
+    summary = summary_resp.json()
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1120, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:__main__:DecodeError: game_id = 401856909
+ Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1116, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\python\scrape_wnba_json.py", line 50, in download_game
+    g = sdv.wnba.espn_wnba_pbp(game_id = game, raw = True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\sportsdataverse\wnba\wnba_pbp.py", line 60, in espn_wnba_pbp
+    summary = summary_resp.json()
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1120, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1116, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\python\scrape_wnba_json.py", line 50, in download_game
+    g = sdv.wnba.espn_wnba_pbp(game_id = game, raw = True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\sportsdataverse\wnba\wnba_pbp.py", line 60, in espn_wnba_pbp
+    summary = summary_resp.json()
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1120, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+ERROR:__main__:DecodeError: game_id = 401856900
+ Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1116, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\python\scrape_wnba_json.py", line 50, in download_game
+    g = sdv.wnba.espn_wnba_pbp(game_id = game, raw = True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\sportsdataverse\wnba\wnba_pbp.py", line 60, in espn_wnba_pbp
+    summary = summary_resp.json()
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1120, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1116, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\AppData\Roaming\uv\python\cpython-3.11.11-windows-x86_64-none\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jkram\github\wehoop-wnba-raw\python\scrape_wnba_json.py", line 50, in download_game
+    g = sdv.wnba.espn_wnba_pbp(game_id = game, raw = True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\sportsdataverse\wnba\wnba_pbp.py", line 60, in espn_wnba_pbp
+    summary = summary_resp.json()
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jkram\github\wehoop-wnba-raw\.venv\Lib\site-packages\requests\models.py", line 1120, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO:__main__:2.4993062138557436 minutes to download 144 game play-by-plays.
+INFO:__main__:Finished WNBA PBP for 2026...
+INFO:__main__:Scraping WNBA schedules for year 2026...
+INFO:__main__:0.4258024334907532 minutes to download 1 years of season schedules.

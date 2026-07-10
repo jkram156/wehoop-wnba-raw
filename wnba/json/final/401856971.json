@@ -30589,12 +30589,12 @@
 "href": "https://a.espncdn.com/i/headshots/wnba/players/full/4433795.png",
 "alt": "Sania Feagin"
 },
-"jersey": "20",
 "position": {
 "name": "Forward",
 "displayName": "Forward",
 "abbreviation": "F"
-}
+},
+"jersey": "20"
 },
 "starter": false,
 "didNotPlay": true,
@@ -33809,8 +33809,8 @@
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": -1.0,
-"displayValue": "L1"
+"value": 2.0,
+"displayValue": "W2"
 },
 {
 "name": "winPercent",
@@ -33819,8 +33819,8 @@
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.7647059,
-"displayValue": ".765"
+"value": 0.7894737,
+"displayValue": ".789"
 },
 {
 "name": "wins",
@@ -33829,8 +33829,8 @@
 "description": "Wins",
 "abbreviation": "W",
 "type": "wins",
-"value": 13.0,
-"displayValue": "13"
+"value": 15.0,
+"displayValue": "15"
 }
 ],
 "logo": [
@@ -33880,8 +33880,8 @@
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": -1.0,
-"displayValue": "L1"
+"value": 2.0,
+"displayValue": "W2"
 },
 {
 "name": "winPercent",
@@ -33890,8 +33890,8 @@
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.7058824,
-"displayValue": ".706"
+"value": 0.7368421,
+"displayValue": ".737"
 },
 {
 "name": "wins",
@@ -33900,8 +33900,8 @@
 "description": "Wins",
 "abbreviation": "W",
 "type": "wins",
-"value": 12.0,
-"displayValue": "12"
+"value": 14.0,
+"displayValue": "14"
 }
 ],
 "logo": [
@@ -33919,77 +33919,6 @@
 ]
 },
 {
-"team": "Dallas",
-"link": "https://www.espn.com/wnba/team/_/name/dal/dallas-wings",
-"id": "3",
-"uid": "s:40~l:59~t:3",
-"stats": [
-{
-"name": "gamesBehind",
-"displayName": "Games Back",
-"shortDisplayName": "GB",
-"description": "Games Back",
-"abbreviation": "GB",
-"type": "gamesbehind",
-"value": 2.0,
-"displayValue": "2"
-},
-{
-"name": "losses",
-"displayName": "Losses",
-"shortDisplayName": "L",
-"description": "Losses",
-"abbreviation": "L",
-"type": "losses",
-"value": 6.0,
-"displayValue": "6"
-},
-{
-"name": "streak",
-"displayName": "Streak",
-"shortDisplayName": "STRK",
-"description": "Current Streak",
-"abbreviation": "STRK",
-"type": "streak",
-"value": 2.0,
-"displayValue": "W2"
-},
-{
-"name": "winPercent",
-"displayName": "Win Percentage",
-"shortDisplayName": "PCT",
-"description": "Winning Percentage",
-"abbreviation": "PCT",
-"type": "winpercent",
-"value": 0.64705884,
-"displayValue": ".647"
-},
-{
-"name": "wins",
-"displayName": "Wins",
-"shortDisplayName": "W",
-"description": "Wins",
-"abbreviation": "W",
-"type": "wins",
-"value": 11.0,
-"displayValue": "11"
-}
-],
-"logo": [
-{
-"href": "https://a.espncdn.com/i/teamlogos/wnba/500/dal.png",
-"width": 500,
-"height": 500,
-"alt": "",
-"rel": [
-"full",
-"default"
-],
-"lastUpdated": "2023-05-10T21:43Z"
-}
-]
-},
-{
 "team": "Golden State",
 "link": "https://www.espn.com/wnba/team/_/name/gs/golden-state-valkyries",
 "id": "129689",
@@ -34002,8 +33931,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 3.0,
-"displayValue": "3"
+"value": 2.5,
+"displayValue": "2.5"
 },
 {
 "name": "losses",
@@ -34022,8 +33951,8 @@
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": -2.0,
-"displayValue": "L2"
+"value": 3.0,
+"displayValue": "W3"
 },
 {
 "name": "winPercent",
@@ -34032,8 +33961,8 @@
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.5882353,
-"displayValue": ".588"
+"value": 0.65,
+"displayValue": ".650"
 },
 {
 "name": "wins",
@@ -34042,8 +33971,8 @@
 "description": "Wins",
 "abbreviation": "W",
 "type": "wins",
-"value": 10.0,
-"displayValue": "10"
+"value": 13.0,
+"displayValue": "13"
 }
 ],
 "logo": [
@@ -34073,10 +34002,10 @@
 ]
 },
 {
-"team": "Los Angeles",
-"link": "https://www.espn.com/wnba/team/_/name/la/los-angeles-sparks",
-"id": "6",
-"uid": "s:40~l:59~t:6",
+"team": "Dallas",
+"link": "https://www.espn.com/wnba/team/_/name/dal/dallas-wings",
+"id": "3",
+"uid": "s:40~l:59~t:3",
 "stats": [
 {
 "name": "gamesBehind",
@@ -34085,8 +34014,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 4.5,
-"displayValue": "4.5"
+"value": 4.0,
+"displayValue": "4"
 },
 {
 "name": "losses",
@@ -34105,8 +34034,8 @@
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": 1.0,
-"displayValue": "W1"
+"value": -2.0,
+"displayValue": "L2"
 },
 {
 "name": "winPercent",
@@ -34115,8 +34044,79 @@
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.5,
-"displayValue": ".500"
+"value": 0.57894737,
+"displayValue": ".579"
+},
+{
+"name": "wins",
+"displayName": "Wins",
+"shortDisplayName": "W",
+"description": "Wins",
+"abbreviation": "W",
+"type": "wins",
+"value": 11.0,
+"displayValue": "11"
+}
+],
+"logo": [
+{
+"href": "https://a.espncdn.com/i/teamlogos/wnba/500/dal.png",
+"width": 500,
+"height": 500,
+"alt": "",
+"rel": [
+"full",
+"default"
+],
+"lastUpdated": "2023-05-10T21:43Z"
+}
+]
+},
+{
+"team": "Los Angeles",
+"link": "https://www.espn.com/wnba/team/_/name/la/los-angeles-sparks",
+"id": "6",
+"uid": "s:40~l:59~t:6",
+"stats": [
+{
+"name": "gamesBehind",
+"displayName": "Games Back",
+"shortDisplayName": "GB",
+"description": "Games Back",
+"abbreviation": "GB",
+"type": "gamesbehind",
+"value": 6.5,
+"displayValue": "6.5"
+},
+{
+"name": "losses",
+"displayName": "Losses",
+"shortDisplayName": "L",
+"description": "Losses",
+"abbreviation": "L",
+"type": "losses",
+"value": 10.0,
+"displayValue": "10"
+},
+{
+"name": "streak",
+"displayName": "Streak",
+"shortDisplayName": "STRK",
+"description": "Current Streak",
+"abbreviation": "STRK",
+"type": "streak",
+"value": -2.0,
+"displayValue": "L2"
+},
+{
+"name": "winPercent",
+"displayName": "Win Percentage",
+"shortDisplayName": "PCT",
+"description": "Winning Percentage",
+"abbreviation": "PCT",
+"type": "winpercent",
+"value": 0.44444445,
+"displayValue": ".444"
 },
 {
 "name": "wins",
@@ -34156,8 +34156,8 @@
 "description": "Games Back",
 "abbreviation": "GB",
 "type": "gamesbehind",
-"value": 5.0,
-"displayValue": "5"
+"value": 7.5,
+"displayValue": "7.5"
 },
 {
 "name": "losses",
@@ -34166,8 +34166,8 @@
 "description": "Losses",
 "abbreviation": "L",
 "type": "losses",
-"value": 9.0,
-"displayValue": "9"
+"value": 12.0,
+"displayValue": "12"
 },
 {
 "name": "streak",
@@ -34176,8 +34176,8 @@
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": 1.0,
-"displayValue": "W1"
+"value": -3.0,
+"displayValue": "L3"
 },
 {
 "name": "winPercent",
@@ -34186,8 +34186,8 @@
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.47058824,
-"displayValue": ".471"
+"value": 0.4,
+"displayValue": ".400"
 },
 {
 "name": "wins",
@@ -34259,8 +34259,8 @@
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": -1.0,
-"displayValue": "L1"
+"value": 2.0,
+"displayValue": "W2"
 },
 {
 "name": "winPercent",
@@ -34269,8 +34269,8 @@
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.2777778,
-"displayValue": ".278"
+"value": 0.35,
+"displayValue": ".350"
 },
 {
 "name": "wins",
@@ -34279,8 +34279,8 @@
 "description": "Wins",
 "abbreviation": "W",
 "type": "wins",
-"value": 5.0,
-"displayValue": "5"
+"value": 7.0,
+"displayValue": "7"
 }
 ],
 "logo": [
@@ -34330,8 +34330,8 @@
 "description": "Current Streak",
 "abbreviation": "STRK",
 "type": "streak",
-"value": -11.0,
-"displayValue": "L11"
+"value": 2.0,
+"displayValue": "W2"
 },
 {
 "name": "winPercent",
@@ -34340,8 +34340,8 @@
 "description": "Winning Percentage",
 "abbreviation": "PCT",
 "type": "winpercent",
-"value": 0.16666667,
-"displayValue": ".167"
+"value": 0.25,
+"displayValue": ".250"
 },
 {
 "name": "wins",
@@ -34350,8 +34350,8 @@
 "description": "Wins",
 "abbreviation": "W",
 "type": "wins",
-"value": 3.0,
-"displayValue": "3"
+"value": 5.0,
+"displayValue": "5"
 }
 ],
 "logo": [
@@ -35309,11 +35309,26 @@
 "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/wnba/seasons/2026/teams/6?lang=en&region=us",
 "id": "6"
 },
-"status": {
-"id": "1",
-"name": "Active",
-"type": "active",
-"abbreviation": "Active"
+"status": "Out",
+"injuries": {
+"status": "Out",
+"date": "2026-06-24T16:05Z",
+"type": {
+"id": "4",
+"name": "INJURY_STATUS_OUT",
+"description": "out",
+"abbreviation": "O"
+},
+"details": {
+"fantasyStatus": {
+"description": "OUT",
+"abbreviation": "OUT",
+"displayDescription": "Out"
+},
+"type": "Lower Leg",
+"side": "Left",
+"returnDate": "2026-07-28"
+}
 }
 },
 "statistics": [
